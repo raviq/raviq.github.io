@@ -1,0 +1,441 @@
+/*
+ * Title: Portfolio CSS template
+ * Version: 0.9
+ * Last change: Nov 2018
+ * Author: Rafik Hadfi (rafik.hadfi@gmail.com)
+ * Repository: https://github.com/raviq
+ */
+
+html 
+{
+  height: 100%;
+}
+
+body 
+{
+    background-color: #fdfdfd;
+	font-family:Lato, sans-serif;
+	font-size:16px;
+	min-height: 100%;
+	display: grid;
+	grid-template-rows: 1fr auto;	
+}
+
+.footer 
+{
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+/** Side menu **/
+
+.sidemenu 
+{
+    line-height:30px;
+    float:left;
+    padding:1px;
+	
+    height: 100%;
+    width:180px;
+    
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#111;
+    overflow-x: hidden;
+    padding-top: 100px;
+}
+
+.sidemenu a 
+{
+    padding: 6px 8px 6px 1px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #EFEEF5;
+    display: block;
+}
+
+.sidemenu a:hover 
+{
+    color: #8C83C7;
+}
+
+.active 
+{
+    font-weight: 999;
+}
+
+.section
+{
+    width:350px;
+    float:left;
+    padding:10px;
+}
+
+.tab-content 
+{
+	margin-top: 50px;
+	margin-left: 180px; /* = sidemenu.width */
+	font-size: 16px; 	/* increased text to enable scrolling */
+	padding: 0px 30px;
+}
+
+#header 
+{
+	position:relative;
+	height:80vh;
+	min-height:80px;
+	max-height:80px;
+	background:url(../images/head-bg.png);
+	background-size:cover;
+	overflow:hidden;
+	padding:10px;
+	box-shadow: 0px -10px 5px 10px black; 
+}
+
+#header-content 
+{
+	position:absolute;
+	z-index:10;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	text-align:center;
+}
+
+#header-content h1,#header-content h2 
+{
+	margin:0;
+}
+
+#header-content h1 
+{
+	color:#605895;	/** title color **/
+	font-weight:900;
+	font-size:2em;
+	letter-spacing:.05em;
+	line-height:.9em;
+}
+
+#header-content h2
+{
+	color:#78758C;	/** subtitle color **/
+	font-weight:500;
+	font-size:1em;
+	margin-bottom:1px;
+}
+
+.button-white 
+{
+	text-decoration:none;
+	color:#4689B6;
+	transition:.5s ease all;
+}
+
+.button-white:hover 
+{
+	color:#A3D2F2;
+	background:#fff;
+	text-decoration:none;
+}
+
+.button-purple
+{
+	font-size : 16px;
+	border: none;
+	background: none
+	text-decoration:none;
+	color: #bcd;
+	transition:.5s ease all;
+}
+
+.button-purple:hover 
+{
+	color:#3498db;
+	background:#fff;
+	text-decoration:none;
+}
+
+
+.heading 
+{
+	position:relative;
+	display:inline-block;
+	font-size:2em;
+	font-weight:300;
+	margin:1 0 40px;
+	margin-left: 20px
+}
+
+.heading:after 
+{
+	position:absolute;
+	content:'';
+	top:100%;
+	height:1px;
+	width:50px;
+	left:0;
+	right:0;
+	background:#3498db;
+	margin:0 auto;
+}
+
+/** **/
+
+
+.generalink
+{
+	font-size : 16px;
+	border: none;
+	background: none
+	text-decoration:none;
+	color: #55799C;
+	transition:.5s ease all;
+}
+
+.generalink:hover 
+{
+	color:#8DA2B7;
+	background:#fff;
+	text-decoration:none;
+}
+
+/** Skills **/
+
+#skills 
+{
+	text-align:center;
+	padding:50px 15px;
+}
+
+#skills ul 
+{
+	display:block;
+	max-width:800px;
+	margin:0 auto;
+	padding:0;
+	
+	list-style-position: inside;
+}
+
+#skills li 
+{
+	display:inline-block;
+	color:#374054;
+	background:#e4e4ea;
+	list-style:none;
+	cursor:default;
+	font-size:1.2em;
+	margin:7px;
+	padding:5px 10px;
+	
+	border:5px solid #fff;
+	border-radius:15px;
+}
+
+/** Social **/
+
+.social 
+{
+	text-align:right;
+}
+
+.social ul 
+{
+  float: right;
+  margin: 10px 0 0;
+  display: inline;
+  padding:0;
+}
+
+.social li 
+{
+	display:inline-block;
+	font-size:1.25em;
+	list-style:none;
+}
+
+.social a 
+{
+	display:block;
+	color:#74808a;
+	padding:10px;
+}
+
+.social a:hover 
+{
+	color:#3498db;
+}
+
+/** Copyright **/
+
+.copyright 
+{
+	float: right;
+	text-align: right;
+	margin: 10px 10px;
+	display: inline;
+	padding-top:25px;
+}
+
+.copyright p 
+{
+	color:#74808a;
+	margin:0;
+}
+
+/** vertical timeline **/
+
+.timeline .timeline-item::after, .timeline .timeline-item::before 
+{
+  clear: both;
+  content: '';
+  display: block;
+  width: 100%;
+}
+
+.timeline 
+{
+  margin: 30px auto;
+  padding: 0 10px;
+  position: relative;
+  transition: all 0.25s ease-in;
+  width: 100%;
+}
+
+.timeline::before 
+{
+  background: #e6e6ff;
+  content: '';
+  height: 100%;
+  left: 5.16%;		/** line **/
+  position: absolute;
+  top: 0;
+  width: 3px;
+}
+
+.timeline::after 
+{
+  clear: both;
+  content: '';
+  display: table;
+  width: 100%;
+}
+
+.timeline a 
+{
+  color: #61769E;
+  font-weight: bold;
+  transition: all 0.25s ease-in;
+}
+
+.timeline a:hover 
+{
+  box-shadow: 0 1px 0px 0px #e6e6ff;
+  transition: all 0.25s ease-in;
+}
+
+.timeline .timeline-item 
+{
+  margin-bottom: 18px; /** margin at the bottom of each block **/
+  position: relative;
+}
+
+.timeline .timeline-item .timeline-icon 
+{
+  background: #e6e6ff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  left: 4%; 	/** pos wrt the line **/
+  margin-left: -24px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+}
+
+.timeline .timeline-item .timeline-icon img,
+.timeline .timeline-item .timeline-icon svg 
+{
+  left: 13px;
+}
+
+.timeline .timeline-item .timeline-icon svg 
+{
+  top: 14px;
+}
+
+.timeline .timeline-item .timeline-content 
+{
+  padding: 0px;
+  text-align: right;
+  transition: all 0.25s ease-in;
+  width: 91%;  /** pos wrt the line **/
+  background: transparent;
+}
+
+.timeline .timeline-item .timeline-content p 
+{
+  color: #000000;
+  font-size: 16px;
+  line-height: 0.5;
+  margin-bottom: 0;
+}
+
+.timeline .timeline-item .timeline-content .timeline-content-date 
+{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.timeline .timeline-item .timeline-content .timeline-content-month 
+{
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.timeline .timeline-item .timeline-content.right 
+{
+  float: right;
+  text-align: left;
+}
+
+@media screen and (max-width: 39.9375em) 
+{
+  .timeline 
+  {
+    margin: 30px;
+    padding: 0;
+    width: 90%;
+  }
+  .timeline::before 
+  {
+    left: 0;
+  }
+  .timeline .timeline-item .timeline-content 
+  {
+    float: right;
+    text-align: left;
+    width: 90%;
+  }
+  .timeline .timeline-item .timeline-content::before, .timeline .timeline-item .timeline-content.right::before 
+  {
+    border-left: 0;
+    border-right: 7px solid #e6e6ff;
+    left: 10%;
+    margin-left: -6px;
+  }
+  .timeline .timeline-item .timeline-icon 
+  {
+    left: 0;
+  }
+}
+
+/*@media screen and (max-height: 450px) 
+{
+    .sidemenu {padding-top: 15px;}
+    .sidemenu a {font-size: 18px;}
+}*/
