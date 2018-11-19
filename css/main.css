@@ -302,7 +302,6 @@ body
   position: relative;
   transition: all 0.25s ease-in;
   width: 100%;
-  
 }
 
 .timeline::before 
@@ -380,7 +379,9 @@ body
 {
   color: #000000;
   font-size: 16px;
-  line-height: 1.0;
+/* 
+  line-height: 0.5;
+ */
   margin-bottom: 0;
 }
 
