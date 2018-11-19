@@ -377,7 +377,7 @@ body
 
 .timeline .timeline-item .timeline-content p 
 {
-  color: #000000;
+  color: red;/* #000000; */
   font-size: 16px;
 }
 
