@@ -379,11 +379,6 @@ body
 {
   color: #000000;
   font-size: 16px;
-/* 
-  line-height: 0.5;
-
-  margin-bottom: 0;
- */
 }
 
 .timeline .timeline-item .timeline-content .timeline-content-date 
@@ -405,7 +400,6 @@ body
   float: right;
   text-align: left;
 }
-
 
 
 /** iPhone X **/
