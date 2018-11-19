@@ -379,6 +379,9 @@ body
 {
   color: #000000;
   font-size: 16px;
+  
+  line-height: 1.0;
+
 }
 
 .timeline .timeline-item .timeline-content .timeline-content-date 
@@ -433,11 +436,13 @@ body
 		left: 0;
 	}
 
+	/*************/
 
 	.sidemenu
 	{
 	    width:100px;
-
+	    height: 100%;
+    
 		padding-top: 15px;
 	}
 	.sidemenu a
