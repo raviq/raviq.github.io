@@ -1,6 +1,6 @@
 # Portfolio website
 
-My very basic portfolio in html.
+A very basic portfolio in html.
 
 ## Usage
 

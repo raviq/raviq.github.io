@@ -403,39 +403,49 @@ body
   text-align: left;
 }
 
-@media screen and (max-width: 39.9375em) 
+
+
+
+@media only screen and (min-width : 320px)
 {
-  .timeline 
-  {
-    margin: 30px;
-    padding: 0;
-    width: 90%;
-  }
-  .timeline::before 
-  {
-    left: 0;
-  }
-  .timeline .timeline-item .timeline-content 
-  {
-    float: right;
-    text-align: left;
-    width: 90%;
-  }
-  .timeline .timeline-item .timeline-content::before, .timeline .timeline-item .timeline-content.right::before 
-  {
-    border-left: 0;
-    border-right: 7px solid #e6e6ff;
-    left: 10%;
-    margin-left: -6px;
-  }
-  .timeline .timeline-item .timeline-icon 
-  {
-    left: 0;
-  }
+	.timeline 
+	{
+		margin: 30px;
+		padding: 0;
+		width: 90%;
+	}
+	.timeline::before 
+	{
+		left: 0;
+	}
+	.timeline .timeline-item .timeline-content 
+	{
+		float: right;
+		text-align: left;
+		width: 90%;
+	}
+	.timeline .timeline-item .timeline-content::before, .timeline .timeline-item .timeline-content.right::before 
+	{
+		border-left: 0;
+		border-right: 7px solid #e6e6ff;
+		left: 10%;
+		margin-left: -6px;
+	}
+	.timeline .timeline-item .timeline-icon 
+	{
+		left: 0;
+	}
+
+
+	.sidemenu
+	{
+		padding-top: 15px;
+	}
+	.sidemenu a
+	{
+		font-size: 18px;
+	}
+
 }
 
-/*@media screen and (max-height: 450px) 
-{
-    .sidemenu {padding-top: 15px;}
-    .sidemenu a {font-size: 18px;}
-}*/
+
