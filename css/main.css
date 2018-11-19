@@ -380,7 +380,7 @@ body
 {
   color: #000000;
   font-size: 16px;
-  line-height: normal
+  line-height: 1.0;
   margin-bottom: 0;
 }
 
