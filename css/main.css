@@ -440,6 +440,16 @@ body
 
 	/*************/
 
+	body 
+	{
+		background-color: #fdfdfd;
+		font-family:Lato, sans-serif;
+		font-size:12px;
+		display: grid;
+		grid-template-rows: 1fr auto;	
+		line-height: 1.5;
+	}
+
 	.sidemenu
 	{
 	    line-height:60px;
