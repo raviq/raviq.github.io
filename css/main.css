@@ -19,6 +19,8 @@ body
 	min-height: 100%;
 	display: grid;
 	grid-template-rows: 1fr auto;	
+	
+	line-height: 1.5;
 }
 
 .footer 
@@ -49,7 +51,6 @@ body
 
 .sidemenu a 
 {
-    padding: 6px 8px 6px 1px;
     text-decoration: none;
     font-size: 20px;
     color: #EFEEF5;
@@ -147,7 +148,8 @@ body
 	background: none
 	text-decoration:none;
 	color: #bcd;
-	transition:.5s ease all;
+	transition:.5s ease all;	
+	margin-left: -6px;
 }
 
 .button-purple:hover 
@@ -404,7 +406,7 @@ body
   text-align: left;
 }
 
-
+/************************************************************************************************************************/
 /** iPhone X **/
 @media only screen and (device-width : 375px)  and (device-height : 812px) and (-webkit-device-pixel-ratio : 3)
 {
@@ -440,14 +442,13 @@ body
 
 	.sidemenu
 	{
-	    width:100px;
-	    height: 100%;
-    
+	    width:110px;
+	
 		padding-top: 15px;
 	}
 	.sidemenu a
 	{
-		font-size: 12px;
+	    font-size: 10px;
 	}
 
 }

@@ -57,6 +57,23 @@ function seeDetails(k)
 {
     var x = document.getElementById("Details" + k);
     x.style.display = (x.style.display === "none") ? "block" : "none";
+   
+	var e = document.getElementById("button" + k);
+
+	//var space = String.fromCharCode('0xa0');
+
+	var upArrow = String.fromCharCode('0x25b6');
+	var downArrow = String.fromCharCode('0x25bc');
+
+	if ( e.innerHTML == upArrow )
+	{
+	  e.innerHTML = downArrow;
+	}
+	else if ( e.innerHTML == downArrow )
+	{
+	  e.innerHTML = upArrow;
+	}
+
 }
 
 
