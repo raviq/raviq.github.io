@@ -112,7 +112,7 @@ body
 
 #header-content h1 
 {
-	color:#605895;	/** title color **/
+	color: #0D1417;	/** title color **/
 	font-weight:900;
 	font-size:2em;
 	letter-spacing:.05em;
@@ -121,7 +121,7 @@ body
 
 #header-content h2
 {
-	color:#78758C;	/** subtitle color **/
+	color: #0D1415;	/** subtitle color **/
 	font-weight:500;
 	font-size:1em;
 	margin-bottom:1px;
