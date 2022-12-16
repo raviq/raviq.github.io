@@ -44,7 +44,7 @@ body
     z-index: 1;
     top: 0;
     left: 0;
-    background-color:#05080a;
+    background-color:#ff080a; /* #0D1417 */
     overflow-x: hidden;
     padding-top: 100px;
 }
