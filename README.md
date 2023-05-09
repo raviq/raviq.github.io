@@ -13,5 +13,5 @@ This software was developed in the hope that it would be of some use, and is fre
 
 Comments, feedback and ideas are welcome. If you find bugs or omissions in the code, please do not hesitate to submit an issue or open a pull request with a fix.
 
-Copyright (c) 2020 Rafik Hadfi, rafik.hadfi@gmail.com
+Copyright (c) 2023 Rafik Hadfi, rafik.hadfi@gmail.com
 
