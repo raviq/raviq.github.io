@@ -25,7 +25,7 @@ $(document).ready(function ()
     // Loading pages and inclusion in index page
 	var pages = [	"welcome",
 					"publications", 
-					"skills", 
+					"awards", 
 					"education", 
 					"experience", 
 					"social", 
