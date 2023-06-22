@@ -30,7 +30,8 @@ $(document).ready(function ()
 					"experience", 
 					"social", 
 					"resources",
-					"activities"
+					"activities",
+		     			"projects"
 				];
 			
 	for (var i in pages) 
