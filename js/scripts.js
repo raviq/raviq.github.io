@@ -29,7 +29,7 @@ $(document).ready(function ()
 					"education", 
 					"experience", 
 					"social", 
-					"resources",
+					"teaching",
 					"activities",
 		     			"projects"
 				];
