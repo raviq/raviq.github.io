@@ -297,7 +297,7 @@ body {
   background: #e6e6ff;
   position: absolute;
   top: 0;
-  left: 5.16%;
+  left: 6%; /* pushed more to the right (was 5.16%) */
   width: 3px;
   height: 100%;
 }
@@ -340,7 +340,7 @@ body {
   width: 50px;
   position: absolute;
   top: 0;
-  left: 4%;
+  left: 5%; /* pushed more to the right (was 4%) */
   margin-left: -24px;
   overflow: hidden;
 }
