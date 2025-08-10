@@ -1,70 +1,759 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
 <head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Rafik Hadfi</title>
+<meta content="Elegant, compact academic portfolio showcasing research on AI agents, autonomy, negotiation, and deliberative systems." name="description"/>
+<link href="images/favicon.ico" rel="icon"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&amp;display=swap" rel="stylesheet"/>
+<style id="critical-css">:root{--bg:#0e1014;--panel:#151926;--text:#e8eaf0;--muted:#a9b2c7;--line:rgba(255,255,255,.08);--brand:#63a6ff;--brand2:#44d89e;--radius:16px;--shadow:0 10px 30px rgba(0,0,0,.25);--maxw:1280px} @media (prefers-color-scheme:light){:root{--bg:#ffffff;--panel:#f6f7fb;--text:#10131a;--muted:#5d667b;--line:rgba(0,0,0,.08);--brand:#2b59ff;--brand2:#16a16e;--shadow:0 10px 28px rgba(0,0,0,.08)}} *{box-sizing:border-box}html,body{margin:0;padding:0} body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;background:var(--bg);color:var(--text);line-height:1.7;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility} .container{max-width:var(--maxw);margin:0 auto;padding:0 12px} .header{position:sticky;top:0;z-index:30;backdrop-filter:saturate(180%) blur(10px);background:rgba(14,16,20,.6);border-bottom:1px solid var(--line)} @media (prefers-color-scheme:light){.header{background:rgba(255,255,255,.7)}} .header .header-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px 0} .brand{display:flex;flex-direction:column;text-decoration:none;color:var(--text)} .brand-name{font-weight:800;letter-spacing:.2px} .nav-toggle{display:none;background:transparent;border:0;color:var(--text);font-size:24px} .nav ul{display:flex;list-style:none;gap:18px;margin:0;padding:0} .nav a{display:block;padding:10px 12px;text-decoration:none;color:var(--text);border-radius:10px;position:relative} .nav a::after{content:"";position:absolute;left:12px;right:12px;bottom:6px;height:2px;background:linear-gradient(90deg,var(--brand),var(--brand2));transform:scaleX(0);transform-origin:left;transition:transform .25s ease} .nav a:hover::after,.nav a.active::after{transform:scaleX(1)} .nav a.active{color:var(--brand)} @media (max-width:900px){.nav{display:none;position:absolute;right:20px;top:70px;background:var(--panel);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}.nav.open{display:block}.nav ul{flex-direction:column;padding:10px}.nav-toggle{display:block}} .hero{padding:60px 0 32px;border-bottom:1px solid var(--line);background:linear-gradient(120deg,rgba(99,166,255,.15),rgba(68,216,158,.1))} .hero .hero-inner{display:grid;grid-template-columns:1fr;gap:24px;align-items:center} .section{padding:48px 0} .section-title{font-size:clamp(20px,2.2vw,28px);margin:0 0 12px} .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px} .social-bar{position:fixed;left:20px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:12px;z-index:100} .social-bar a{width:36px;height:36px;display:flex;align-items:center;justify-content:center;border-radius:999px;border:1px solid var(--line);color:var(--text);text-decoration:none} @media (max-width:900px){.social-bar{display:none}} .footer{padding:28px 0;border-top:1px solid var(--line)} .footer .footer-inner{display:flex;align-items:center;justify-content:space-between;color:var(--muted)} .visually-hidden{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0 0 0 0)!important;white-space:nowrap!important;border:0!important}</style><link as="style" href="assets.min.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/><noscript><link href="assets.min.css" rel="stylesheet"/></noscript>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css" rel="stylesheet"/>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Rafik Hadfi",
+  "affiliation": {
+    "@type": "Organization",
+    "name": "Kyoto University",
+    "url": "http://www.i.kyoto-u.ac.jp/en/"
+  },
+  "jobTitle": "Associate Professor",
+  "url": "https://github.com/raviq",
+  "sameAs": [
+    "https://github.com/raviq",
+    "https://www.linkedin.com/in/rafik-hadfi",
+    "https://www.researchgate.net/profile/Rafik_Hadfi",
+    "https://scholar.google.com/citations?user=dinMPLcAAAAJ&hl=en",
+    "https://orcid.org/0000-0003-2352-1936"
+  ]
+}</script><link href="https://example.com/" rel="canonical"/><meta content="Rafik Hadfi" property="og:title"/><meta content="Elegant, compact academic portfolio showcasing research on AI agents, autonomy, negotiation, and deliberative systems." property="og:description"/><meta content="website" property="og:type"/><meta content="images/figure1.png" property="og:image"/><meta content="summary_large_image" name="twitter:card"/><meta content="Rafik Hadfi" name="twitter:title"/><meta content="Elegant, compact academic portfolio showcasing research on AI agents, autonomy, negotiation, and deliberative systems." name="twitter:description"/><meta content="images/figure1.png" name="twitter:image"/></head>
+<body><a class="skip-link" href="#about">Skip to content</a><div class="social-bar"><a aria-label="Google Scholar" href="https://scholar.google.com/citations?user=dinMPLcAAAAJ&amp;hl=en" title="Google Scholar"><i class="ai ai-google-scholar"></i></a><a aria-label="ORCID" href="https://orcid.org/0000-0003-2352-1936" title="ORCID"><i class="ai ai-orcid"></i></a><a aria-label="ResearchGate" href="https://www.researchgate.net/profile/Rafik_Hadfi" title="ResearchGate"><i class="ai ai-researchgate"></i></a><a aria-label="GitHub" href="https://github.com/raviq" title="GitHub"><i class="fab fa-github"></i></a><a aria-label="LinkedIn" href="https://www.linkedin.com/in/rafik-hadfi" title="LinkedIn"><i class="fab fa-linkedin"></i></a></div>
+<header class="header">
+<div class="container header-inner">
+    <a class="brand" href="#">
+        <span class="brand-name">Rafik Hadfi&nbsp;
+        </span>
+    </a>
+<button aria-expanded="false" aria-label="Open menu" class="nav-toggle">☰</button>
+<nav class="nav" id="nav">
+<ul>
+<li><a href="#about">About</a></li><li><a href="#news">News</a></li><li><a href="#publications">Publications</a></li><li><a href="#projects">Projects</a></li><li><a href="#employment">Employment</a></li><li><a href="#education">Education</a></li><li><a href="#teaching">Teaching</a></li><li><a href="#talks">Talks</a></li><li><a href="#awards">Awards</a></li><li><a href="#services">Services</a></li><li><a href="#contact">Contact</a></li>
+</ul>
+</nav><button aria-label="Toggle theme" class="icon-btn theme-toggle" title="Toggle theme"><i class="fa-regular fa-moon"></i></button>
+</div>
+</header>
+<div class="social-bar">
+<a aria-label="Google Scholar" href="https://scholar.google.com/citations?user=dinMPLcAAAAJ&amp;hl=en" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+<a aria-label="ORCID" href="https://orcid.org/0000-0003-2352-1936" title="ORCID"><i class="ai ai-orcid"></i></a>
+<a aria-label="ResearchGate" href="https://www.researchgate.net/profile/Rafik_Hadfi" title="ResearchGate"><i class="ai ai-researchgate"></i></a>
+<a aria-label="GitHub" href="https://github.com/raviq" title="GitHub"><i class="fab fa-github"></i></a>
+<a aria-label="LinkedIn" href="https://www.linkedin.com/in/rafik-hadfi" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+</div>
+<main><h1 class="visually-hidden">Rafik Hadfi</h1>
+<section class="hero">
+<div class="container hero-inner">
+<div class="hero-text">
+</div>
+</div>
+</section>
+<section class="section" id="about">
+<div class="container">
+<div class="section-head">
+<h2 class="section-title">About</h2>
+</div>
+<div class="card section-body">
+<div class="prose">
+<p>
+  I am an Associate Professor in the <a class="generalink" href="http://www.i.kyoto-u.ac.jp/en/" target="_blank">Graduate School of Informatics</a> at Kyoto University in Japan. 
+</p>
+<!-- I joined the university in December 2020. From September 2019 to December 2020, I was a researcher at the Nagoya Institute of Technology. I was developing <a href="https://d-agree.com/site/en/" class="generalink" target="_blank">conversational AI</a> for online deliberation. From April 2017, I was a research fellow in the Departments of Psychology and Philosophy at Monash University in Australia. -->
+<p>
+	Sporadically working on
+	<ul>
+<li>Multiagent systems applied to <a class="generalink" href="https://dl.acm.org/doi/abs/10.5555/3535850.3536112" target="_blank">online deliberation</a>, <a class="generalink" href="https://compsoc.algocratic.org/" target="_blank">voting</a>, <a class="generalink" href="https://github.com/raviq/Simultra" target="_blank">simulations</a>, <a class="generalink" href="https://www.sciencedirect.com/science/article/abs/pii/S2210670722004206" target="_blank">urban planning</a>, and <a class="generalink" href="https://link.springer.com/article/10.1007/s00146-024-02166-w" target="_blank">distributed ledgers</a>.</li>
+<li>Automated decision-making, preference elicitation and <a class="generalink" href="https://sites.google.com/view/ijcai-acan2022/" target="_blank">automated negotiation</a>.</li>
+<li><a class="generalink" href="https://www.kura.kyoto-u.ac.jp/assets/KU_Meet_Your_Community_Feb2023_Rafik.pdf" target="_blank">Enactive AI, 4E cognition</a>, <a class="generalink" href="https://raviq.github.io/include/projects.html" target="_blank">autonomy, agency</a>, consciousness, and constructivist epistemology.</li>
+<li>Artificial general intelligence (AGI) and <a class="generalink" href="https://arxiv.org/abs/1810.07307" target="_blank">formal models of intelligence</a>.</li>
+</ul>
+</p>
+<p>
+<span class="badge badge-accent"><b>Job Vacancies</b></span> I am hiring <a class="generalink" href="https://raviq.github.io/include/projects.html" target="_blank">Research Assistants</a> and one <a class="generalink" href="https://postdoc2025.algocratic.org/" target="_blank">Postdoctoral Researcher</a>. Don't hesitate to contact me!<br/>
+<!-- <span class="badge badge-accent"><b>Supervision</b></span> I am accepting graduate KU students seeking supervision in any of the topics listed above or related areas. -->
+</p>
+<p>
+</p>
+</div>
+</div>
+</div>
+</section><section class="section" id="news"><div class="container"><div class="section-head"><h2 class="section-title">News</h2></div><div class="card"><div class="news-toolbar"><button class="badge badge-export" id="news-export" type="button">Export CSV</button></div><div id="news-output"></div><script id="news-data" type="application/json">[{"text": "June 2025 Speaking at the Technical Committee on Consensus and Co-Creation Design on \"Using Large Language Models to Structure and Analyze Political Debates\" at Japan Advanced Institute of Science and Technology (JAIST), Ishikawa, Japan", "url": null}, {"text": "May 2025 Organizing Blockchain Kaigi 2025 (BCK 2025) at the Indian Institute of Technology Bombay (IIT Bombay) in Bombay, India", "url": null}, {"text": "April 2025 Organizing the 7th International Workshop on Democracy and AI (DemocrAI 2025) at PRICAI 2025 in Wellington, New Zealand", "url": null}, {"text": "March 2025 Organizing the 6th International Workshop on Democracy and AI (DemocrAI 2025) at IJCAI 2025 in Montreal, Canada", "url": null}, {"text": "Dec 2024 Organizing the 8th IEEE International Conference on Agents (ICA 24) in Wollongong, Australia", "url": null}, {"text": "Nov 2024 Organizing the 21st Pacific Rim International Conference on Artificial Intelligence (PRICAI 2024) in Kyoto, Japan", "url": null}, {"text": "Sep 2024 Exploring the Impact of Big 5 Personality Traits on Negotiations using LLMs — To appear in EMNLP 2024 Findings", "url": null}, {"text": "July 2024 Attending the 5th ERCIM/JST Joint Workshop 2024. Moderating \"Trustworthy and Reliable Human-Machine Symbiotic Collaboration\" group. Budapest, Hungary", "url": null}, {"text": "May 2024 Speaking on AI’s Impact on Society, Media, and Democracy at Centrum Wiskunde & Informatica (CWI), Amsterdam, The Netherlands", "url": null}, {"text": "May 2024 I am General Co-chair of the 8th IEEE International Conference on Agents (IEEE ICA 2024) in Wollongong, Australia.", "url": null}, {"text": "May 2024 Organizing the 2nd Computational Social Choice Competition (COMPSOC 2024) @IJCAI 2024", "url": null}, {"text": "April 4, 2024 AIエージェントによって分断された民族間の偏見と不安を軽減―対立グループのE-ContactにおけるAIエージェントの効果― (link)", "url": null}, {"text": "March 12, 2024 Organizing the 4th International Workshop on Democracy and AI (DemocrAI 2024) at IJCAI 2024 in Jeju Island, South Korea", "url": null}, {"text": "Feb 21, 2024 Talking at the CHAIN Philosophy Workshop \"Frontiers of Enactivism in East Asia\". Hokkaido University Center for Human Nature, AI, and Neuroscience in Hokkaido, Japan", "url": null}, {"text": "Dec 20, 2023 I will be the Program Chair of the 21st Pacific Rim International Conference on Artificial Intelligence (PRICAI 2024)", "url": null}, {"text": "Dec 4-6, 2023 Organizing the 7th IEEE International Conference on Agents (IEEE ICA 2023) at Kyoto University, Japan", "url": null}, {"text": "Dec 1, 2023 Our Springer “AI & Society” Special Issue CFP is out: Special issue on AI and Democracy: Transformative Impacts, Challenges, and Solutions", "url": null}, {"text": "Nov 15, 2023 I gave a tutorial at PRICAI 2023 on the Computational Social Choice Competition (COMPSOC)", "url": null}, {"text": "Nov 9, 2023 Invited talk at the “Rethinking the Ethics of AI” symposium on AI & Gender Equity at Doshisha University, Japan", "url": null}, {"text": "Oct 12, 2023 Speaking at Citizen-Centric AI Systems Seminars on AI & Digital Inclusion. University of Southampton, UK", "url": null}, {"text": "Oct 3-5, 2023 Attending the 4th ERCIM/JST-AIP Joint Workshop. Group 1: \"Steps towards Trustworthy and Reliable Human-Machine Symbiotic Collaboration\" (Report)", "url": null}, {"text": "Sep 4, 2023 Study on digital inclusion published in Scientific Reports.", "url": null}, {"text": "Aug 23, 2023 Announcement of the winners of IJCAI-COMPSOC 2023 challenge in Macao.", "url": null}, {"text": "Aug 20, 2023 Democracy and AI Workshop (IJCAI-DemocrAI 2023) in Macao.", "url": null}, {"text": "June 16, 2023 2023 Gregory Kersten GDN Journal Best Journal Paper Award", "url": null}, {"text": "June 2023 I am organizing the 2nd International Workshop on Democracy and AI (DemocrAI 2023) @IJCAI 2023", "url": null}, {"text": "May 2023 I am organizing the 1st Computational Social Choice Competition (COMPSOC 2023) @IJCAI 2023", "url": null}, {"text": "Feb 21, 2023 Invited Talk, “Deconstructing Individual and Collective Selves”. International Workshop \"Toward a Better WE\"", "url": null}, {"text": "Feb 14, 2023 Invited Talk, “The Enactive Pathway to AI”. Meet Your KU Community, Kyoto University, Japan", "url": null}, {"text": "Jan 2023 I am Program Chair of the 7th IEEE International Conference on Agents (IEEE ICA 2023)", "url": null}, {"text": "Nov 10, 2022 Gave an Invited Talk, “Governance by Simulation”. The 1st International Workshop on Democracy and AI (DemocrAI 2022)", "url": null}, {"text": "Dec 8, 2022 Gave an Invited Talk, “Society 5.0: Challenges, Implementations, and Implications”. Mie University, Japan", "url": null}]</script><script>
+(()=>{
+  const data = JSON.parse(document.getElementById('news-data').textContent);
+  const out = document.getElementById('news-output');
+  function render(){
+    out.innerHTML='';
+    const ul = document.createElement('ul'); ul.className='pub-list';
+    for(const n of data){
+      const li = document.createElement('li');
+      if(n.url){
+        const a = document.createElement('a'); a.href=n.url; a.textContent=n.text; a.target='_blank'; a.rel='noopener';
+        li.appendChild(a);
+      }else{
+        li.textContent = n.text;
+      }
+      ul.appendChild(li);
+    }
+    out.appendChild(ul);
+  }
+  function dlCSV(rows){
+    const esc = v => `"${String(v||'').replace(/"/g,'""')}"`;
+    const lines = ['text,url', ...rows.map(r=>`${esc(r.text)},${esc(r.url||'')}`)];
+    const blob = new Blob([lines.join('\n')], {type:'text/csv'});
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'news.csv';
+    document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(a.href), 1000);
+  }
+  document.getElementById('news-export')?.addEventListener('click', ()=> dlCSV(data));
+  render();
+})();
+</script></div></div></section>
+<section class="section" id="publications">
+<div class="container">
+<div class="section-head">
+<h2 class="section-title">Publications</h2>
+</div><div class="pub-yearbar"><div class="pub-yearbar-inner"><a class="chip" href="#pub-2025">2025</a><a class="chip" href="#pub-2024">2024</a><a class="chip" href="#pub-2023">2023</a><a class="chip" href="#pub-2022">2022</a><a class="chip" href="#pub-2021">2021</a><a class="chip" href="#pub-2020">2020</a><a class="chip" href="#pub-2018">2018</a><a class="chip" href="#pub-2017">2017</a><a class="chip" href="#pub-2016">2016</a><a class="chip" href="#pub-2015">2015</a><a class="chip" href="#pub-2014">2014</a><a class="chip" href="#pub-2013">2013</a><a class="chip" href="#pub-2012">2012</a><a class="chip" href="#pub-2011">2011</a><a class="chip" href="#pub-2010">2010</a></div></div>
+<div class="card section-body"><div class="pub-toolbar"><input aria-label="Search publications" id="pub-search" placeholder="Search by author, title, venue, year, DOI…" type="search"/><div class="export-menu" id="pub-export-menu"><button class="badge badge-export" id="pub-export" type="button">Export</button><div class="export-pop" hidden="True"><button data-kind="CSV" type="button">CSV</button><button data-kind="BibTeX" type="button">BibTeX</button><button data-kind="RIS" type="button">RIS</button></div></div></div><div class="pub-yearbar"><div class="pub-yearbar-inner" id="pub-yearbar-inner"></div></div><div id="pub-output"></div><noscript>Please enable JavaScript to view the publications list.</noscript><script id="pub-data" type="application/json">[{"id": "p-anomaly-detection-and-facilitation-ai-to-empower-decentraliz-aab5ff", "authors": "Yuichi Ikeda, Rafik Hadfi , Takayuki Ito and Akihiro Fujihara", "authors_list": ["Yuichi Ikeda", "Rafik Hadfi", "Takayuki Ito and Akihiro Fujihara"], "title": "Anomaly detection and facilitation AI to empower decentralized autonomous organizations for secure crypto-asset transactions", "venue": "AI & Society (2025). https://doi.org/10.1007/s00146-024-02166-w (IF 2.9) DOI", "year": 2025, "doi": "https://doi.org/10.1007/s00146-024-02166-w", "pdf": null, "url": "https://doi.org/10.1007/s00146-024-02166-w", "badges": []}, {"id": "p-structural-complexity-predicts-consensus-readability-in-onli-5829e0", "authors": "Rafik Hadfi and Takayuki Ito", "authors_list": ["Rafik Hadfi and Takayuki Ito"], "title": "Structural complexity predicts consensus readability in online discussions", "venue": "Social Network Analysis and Mining. 14, 51 (2024). https://doi.org/10.1007/s13278-024-01212-1 (IF 2.8) DOI", "year": 2024, "doi": "https://doi.org/10.1007/s13278-024-01212-1", "pdf": null, "url": "https://doi.org/10.1007/s13278-024-01212-1", "badges": []}, {"id": "p-proposal-of-a-double-feedback-digital-product-ranking-system-2f3465", "authors": "Yuchen Liu, Rafik Hadfi and Takayuki Ito", "authors_list": ["Yuchen Liu", "Rafik Hadfi and Takayuki Ito"], "title": "Proposal of a Double Feedback Digital Product Ranking System", "venue": "MSN 2024 @ IJCAI 2024. Jeju, South Korea. Aug 3-9, 2024", "year": 2024, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-pricai-2024-trends-in-artificial-intelligence-2024-4fb21b", "authors": "Rafik Hadfi , Patricia Anthony, Alok Sharma, Takayuki Ito, Quan Bai", "authors_list": ["Rafik Hadfi", "Patricia Anthony", "Alok Sharma", "Takayuki Ito", "Quan Bai"], "title": "PRICAI 2024: Trends in Artificial Intelligence.", "venue": "Proceedings, Part I–V. Springer Singapore, 2024", "year": 2024, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-how-personality-traits-influence-negotiation-outcomes-a-simu-11d678", "authors": "Yin Jou Huang and Rafik Hadfi", "authors_list": ["Yin Jou Huang and Rafik Hadfi"], "title": "How Personality Traits Influence Negotiation Outcomes? A Simulation based on Large Language Models", "venue": "In Findings of the Association for Computational Linguistics: EMNLP 2024, pages 10336–10351, Miami, Florida, USA. Association for Computational Linguistics", "year": 2024, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-e-contact-facilitated-by-conversational-agents-reduces-inter-4ffb9c", "authors": "Sofia Sahab, Jawad Haqbeen, Rafik Hadfi , Takayuki Ito, Richard Imade, Susumu Ohnuma, and Takuya Hasegawa", "authors_list": ["Sofia Sahab", "Jawad Haqbeen", "Rafik Hadfi", "Takayuki Ito", "Richard Imade", "Susumu Ohnuma", "and Takuya Hasegawa"], "title": "E-contact facilitated by conversational agents reduces interethnic prejudice and anxiety in Afghanistan", "venue": "Communications Psychology 2, 22 (2024). https://doi.org/10.1038/s44271-024-00070-z DOI", "year": 2024, "doi": "https://doi.org/10.1038/s44271-024-00070-z", "pdf": null, "url": "https://doi.org/10.1038/s44271-024-00070-z", "badges": []}, {"id": "p-artificial-intelligence-for-research-and-democracy2024-c90ea5", "authors": "Wenpeng Yin, Jihyun Janice Ahn, Rui Zhang, Lifu Huang, Rafik Hadfi , Takayuki Ito, Susumu Ohnuma, Shun Shiramatsu", "authors_list": ["Wenpeng Yin", "Jihyun Janice Ahn", "Rui Zhang", "Lifu Huang", "Rafik Hadfi", "Takayuki Ito", "Susumu Ohnuma", "Shun Shiramatsu"], "title": "Artificial Intelligence for Research and Democracy", "venue": "AI4Research 2024 and DemocrAI 2024, Held in Conjunction with IJCAI 2024, Jeju, South Korea, August 5, 2024 https://doi.org/10.1007/978-981-97-9536-9 DOI", "year": 2024, "doi": "https://doi.org/10.1007/978-981-97-9536-9", "pdf": null, "url": "https://doi.org/10.1007/978-981-97-9536-9", "badges": []}, {"id": "p-2024-ieee-international-conference-on-agents-2024-d88761", "authors": "Jun Yan, Rafik Hadfi , Fenghui Ren, Takahiro Uchiya", "authors_list": ["Jun Yan", "Rafik Hadfi", "Fenghui Ren", "Takahiro Uchiya"], "title": "2024 IEEE International Conference on Agents.", "venue": "(ICA 2024), Wollongong, Australia, 2024, pp. 1-1, doi: 10.1109/ICA63002.2024.00001", "year": 2024, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-towards-hyperdemocracy-an-ai-powered-web-discussion-system-a-4c91ff", "authors": "Takayuki Ito, Rafik Hadfi , Sofia Sahab and Jawad Ahmad Haqbeen", "authors_list": ["Takayuki Ito", "Rafik Hadfi", "Sofia Sahab and Jawad Ahmad Haqbeen"], "title": "Towards Hyperdemocracy: An AI-powered Web Discussion System and its Societal Implementation", "venue": "DemocrAI 2023 @ IJCAI 2023. Aug 20, 2023, Macao, S.A.R", "year": 2023, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-recent-advances-in-agent-based-negotiation-applications-and-4ac74e", "authors": "Rafik Hadfi , Reyhan Aydogan, Takayuki Ito, Ryuta Arisaka", "authors_list": ["Rafik Hadfi", "Reyhan Aydogan", "Takayuki Ito", "Ryuta Arisaka"], "title": "Recent Advances in Agent-Based Negotiation: Applications and Competition Challenges", "venue": "Studies in Computational Intelligence. Springer Nature Singapore. 2023. https://doi.org/10.1007/978-981-99-0561-4 DOI", "year": 2023, "doi": "https://doi.org/10.1007/978-981-99-0561-4", "pdf": null, "url": "https://doi.org/10.1007/978-981-99-0561-4", "badges": []}, {"id": "p-enhancing-social-choice-mechanisms-using-natural-language-pr-c3cc71", "authors": "Yuchen Liu, Rafik Hadfi and Takayuki Ito", "authors_list": ["Yuchen Liu", "Rafik Hadfi and Takayuki Ito"], "title": "Enhancing Social Choice Mechanisms using Natural Language Processing", "venue": "DemocrAI 2023 @ IJCAI 2023. Aug 20, 2023, Macao, S.A.R", "year": 2023, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-conversational-agents-enhance-women-s-contribution-in-online-b6f316", "authors": "Rafik Hadfi , Shun Okuhara, Jawad Haqbeen, Sofia Sahab, Susumu Ohnuma, and Takayuki Ito", "authors_list": ["Rafik Hadfi", "Shun Okuhara", "Jawad Haqbeen", "Sofia Sahab", "Susumu Ohnuma", "and Takayuki Ito"], "title": "Conversational agents enhance women's contribution in online debates", "venue": "Scientific Reports, 2023. https://doi.org/10.1038/s41598-023-41703-3 (IF 4.6) DOI", "year": 2023, "doi": "https://doi.org/10.1038/s41598-023-41703-3", "pdf": null, "url": "https://doi.org/10.1038/s41598-023-41703-3", "badges": []}, {"id": "p-concession-strategy-adjustment-in-automated-negotiation-prob-65b391", "authors": "Yuchen Liu, Rafik Hadfi and Takayuki Ito", "authors_list": ["Yuchen Liu", "Rafik Hadfi and Takayuki Ito"], "title": "Concession Strategy Adjustment in Automated Negotiation Problems", "venue": ", in Recent Advances in Agent-Based Negotiation: Applications and Competition Challenges, Springer, 2023", "year": 2023, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-computational-social-choice-competition-overview2023-ab493c", "authors": "Rafik Hadfi and Takayuki Ito", "authors_list": ["Rafik Hadfi and Takayuki Ito"], "title": "Computational Social Choice Competition: Overview", "venue": "The 37th Annual Conference of the Japanese Society for Artificial Intelligence. June 6th-9th, 2023", "year": 2023, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-agenda-based-automated-negotiation-through-utility-decomposi-ea9719", "authors": "Zongcan Li, Rafik Hadfi and Takayuki Ito", "authors_list": ["Zongcan Li", "Rafik Hadfi and Takayuki Ito"], "title": "Agenda-Based Automated Negotiation Through Utility Decomposition", "venue": ", in Recent Advances in Agent-Based Negotiation: Applications and Competition Challenges, Springer, 2023", "year": 2023, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-2023-ieee-international-conference-on-agents-ica-2023-2023-90c3a2", "authors": "Rafik Hadfi , Weihua Li, and Takayuki Ito", "authors_list": ["Rafik Hadfi", "Weihua Li", "and Takayuki Ito"], "title": "2023 IEEE International Conference on Agents ICA 2023.", "venue": "(2023). https://doi.ieeecomputersociety.org/10.1109/ICA58824.2023.00005", "year": 2023, "doi": null, "pdf": null, "url": "https://doi.ieeecomputersociety.org/10.1109/ICA58824.2023.00005", "badges": []}, {"id": "p-zongcan-li-rafik-hadfi-and-takayuki-ito2022-2ab4df", "authors": "", "authors_list": [], "title": "Zongcan Li, Rafik Hadfi and Takayuki Ito", "venue": "", "year": 2022, "doi": null, "pdf": null, "url": null, "badges": ["Best Paper", "Best Student Paper"]}, {"id": "p-optimization-of-tree-positioning-to-maximize-walking-in-urba-5c000e", "authors": "Ian Estacio, Rafik Hadfi , Ariel Blanco, Takayuki Ito, Jennieveive Babaan", "authors_list": ["Ian Estacio", "Rafik Hadfi", "Ariel Blanco", "Takayuki Ito", "Jennieveive Babaan"], "title": "Optimization of tree positioning to maximize walking in urban outdoor spaces: a modeling and simulation framework", "venue": "Sustainable Cities and Society, 2022, 104105, ISSN 2210-6707. https://doi.org/10.1016/j.scs.2022.104105 (IF 11.7) DOI", "year": 2022, "doi": "https://doi.org/10.1016/j.scs.2022.104105", "pdf": null, "url": "https://doi.org/10.1016/j.scs.2022.104105", "badges": []}, {"id": "p-evolution-of-deliberative-processes-in-online-debates2022-1bcd6b", "authors": "Rafik Hadfi and Takayuki Ito,", "authors_list": ["Rafik Hadfi and Takayuki Ito"], "title": "Evolution of Deliberative Processes in Online Debates", "venue": "The Japanese Society for Artificial Intelligence (JSAI), 2022", "year": 2022, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-augmented-democratic-deliberation-can-conversational-agents-a46b13", "authors": "Rafik Hadfi and Takayuki Ito,", "authors_list": ["Rafik Hadfi and Takayuki Ito"], "title": "Augmented Democratic Deliberation: Can Conversational Agents Boost Deliberation in Social Media?", "venue": "International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS2022). May 11-13, 2022. Auckland, New Zealand", "year": 2022, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-shame-in-two-stage-choice-problems-with-interdependent-alter-53fa14", "authors": "Shun Okuhara, Rafik Hadfi and Takayuki Ito", "authors_list": ["Shun Okuhara", "Rafik Hadfi and Takayuki Ito"], "title": "Shame in two-stage choice problems with interdependent alternatives", "venue": "The 5th IEEE International Conference on Agents (IEEE ICA 2021), December 13-15, 2021", "year": 2021, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-investigating-shame-and-selfishness-in-two-stage-choice-prob-8691a7", "authors": "Shun Okuhara, Rafik Hadfi , and Takayuki Ito", "authors_list": ["Shun Okuhara", "Rafik Hadfi", "and Takayuki Ito"], "title": "Investigating shame and selfishness in two-stage choice problems with interdependent alternatives", "venue": "The 16th International Conference on Knowledge, Information and Creativity Support Systems (KICSS), 2021", "year": 2021, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-identifying-collaborative-editing-traits-and-phases-in-good-f6cea8", "authors": "Hui Chen Chou, Rafik Hadfi , Donghui Lin and Takayuki Ito", "authors_list": ["Hui Chen Chou", "Rafik Hadfi", "Donghui Lin and Takayuki Ito"], "title": "Identifying Collaborative Editing Traits and Phases in Good Wikipedia Articles", "venue": "The 9th ACM Collective Intelligence 2021", "year": 2021, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-extracting-issue-based-information-system-structures-from-on-bfb5ab", "authors": "Atsuya Sakai, Shota Suzuki, Rafik Hadfi , Takayuki Ito", "authors_list": ["Atsuya Sakai", "Shota Suzuki", "Rafik Hadfi", "Takayuki Ito"], "title": "Extracting Issue-Based Information System Structures from Online Discussions for Automated Facilitation Agent", "venue": "The 16th International Conference on Knowledge, Information and Creativity Support Systems (KICSS), 2021", "year": 2021, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-exploring-interaction-hierarchies-in-collaborative-editing-u-b1a49d", "authors": "Rafik Hadfi and Takayuki Ito", "authors_list": ["Rafik Hadfi and Takayuki Ito"], "title": "Exploring Interaction Hierarchies in Collaborative Editing using Integrated Information", "venue": "The 9th ACM Collective Intelligence 2021", "year": 2021, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-argumentative-conversational-agents-for-online-discussions20-fa0417", "authors": "Rafik Hadfi , Jawad Haqbeen, Sofia Sahab and Takayuki Ito", "authors_list": ["Rafik Hadfi", "Jawad Haqbeen", "Sofia Sahab and Takayuki Ito"], "title": "Argumentative Conversational Agents for Online Discussions", "venue": "Journal of Systems Science and Systems Engineering. 30, p450–464 (2021) https://doi.org/10.1007/s11518-021-5497-1 (IF 1.2) DOI", "year": 2021, "doi": "https://doi.org/10.1007/s11518-021-5497-1", "pdf": null, "url": "https://doi.org/10.1007/s11518-021-5497-1", "badges": []}, {"id": "p-an-agent-that-facilitates-crowd-discussion-a-crowd-discussio-836534", "authors": "Takayuki Ito, Rafik Hadfi , and Shota Suzuki", "authors_list": ["Takayuki Ito", "Rafik Hadfi", "and Shota Suzuki"], "title": "An Agent that Facilitates Crowd Discussion: A Crowd Discussion Support System based on an Automated Facilitation Agent", "venue": ", Group Decision and Negotiation. October 2021 https://doi.org/10.1007/s10726-021-09765-8 (IF 3.6) DOI", "year": 2021, "doi": "https://doi.org/10.1007/s10726-021-09765-8", "pdf": null, "url": "https://doi.org/10.1007/s10726-021-09765-8", "badges": []}, {"id": "p-usage-application-of-ai-based-discussion-facilitation-system-ff17d6", "authors": "Jawad Haqbeen, Takayuki Ito, Rafik Hadfi , Zoia Sahab, Sofia Sahab, Ramin Amiryar, and Tomohiro Nishida", "authors_list": ["Jawad Haqbeen", "Takayuki Ito", "Rafik Hadfi", "Zoia Sahab", "Sofia Sahab", "Ramin Amiryar", "and Tomohiro Nishida"], "title": "Usage & application of AI-based discussion facilitation system for urban renewal of Kabul city: Afghanistan experimental view", "venue": "AgentCrowd2020 @ AAMAS 2020, Auckland, New Zealand. May 9-10, 2020", "year": 2020, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-usage-application-of-ai-based-discussion-facilitation-system-d400e5", "authors": "Jawad Haqbeen, Takayuki Ito, Rafik Hadfi , Zoia Sahab, Sofia Sahab, Ramin Amiryar, and Tomohiro Nishida", "authors_list": ["Jawad Haqbeen", "Takayuki Ito", "Rafik Hadfi", "Zoia Sahab", "Sofia Sahab", "Ramin Amiryar", "and Tomohiro Nishida"], "title": "Usage & application of AI-based discussion facilitation system for urban renewal in selected districts of Kabul city: Afghanistan Experimental View", "venue": ", The Japanese Society for Artificial Intelligence (JSAI2020), Kumamoto, Japan. June 9-12, 2020", "year": 2020, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-recognizing-human-actions-in-telework-environments-using-yol-e9da75", "authors": "Soichiro Kuroyanagi, Shun Okuhara, Rafik Hadfi , and Takayuki Ito", "authors_list": ["Soichiro Kuroyanagi", "Shun Okuhara", "Rafik Hadfi", "and Takayuki Ito"], "title": "Recognizing Human Actions in Telework Environments using YOLOv5", "venue": "The 15th International Conference on Knowledge, Information and Creativity Support Systems (KICSS2020). Tasmania, Australia, 25-27 November 2020 — Outstanding Student Paper Award", "year": 2020, "doi": null, "pdf": null, "url": null, "badges": ["Best Student Paper"]}, {"id": "p-promoting-discussion-with-ai-based-facilitation-urban-dialog-b7b66f", "authors": "Jawad Haqbeen, Takayuki Ito, Rafik Hadfi , Tomohiro Nishida, Zoia Sahab, Sofia Sahab, Shafiq Roghmal, and Ramin Amiryar", "authors_list": ["Jawad Haqbeen", "Takayuki Ito", "Rafik Hadfi", "Tomohiro Nishida", "Zoia Sahab", "Sofia Sahab", "Shafiq Roghmal", "and Ramin Amiryar"], "title": "Promoting discussion with AI-based facilitation: Urban dialogue with Kabul city", "venue": "In Proceedings of the 8th ACM Collective Intelligence, ACM Collective Intelligence Conference Series, Boston (Virtual Conference), South Padre Island, TX, USA, vol. 18. 2020", "year": 2020, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-meeting-the-sdgs-enabling-the-goals-by-cooperation-with-crow-aa7176", "authors": "Jawad Haqbeen, Takayuki Ito, Sofia Sahab, Rafik Hadfi , Takumi Sato, and Shun Okuhara", "authors_list": ["Jawad Haqbeen", "Takayuki Ito", "Sofia Sahab", "Rafik Hadfi", "Takumi Sato", "and Shun Okuhara"], "title": "Meeting the SDGs: Enabling the goals by cooperation with crowd mind using conversational AI platform", "venue": "The 15th International Conference on Knowledge, Information and Creativity Support Systems (KICSS2020). Tasmania, Australia, 25-27 November 2020 — Best Paper Award Best Paper", "year": 2020, "doi": null, "pdf": null, "url": null, "badges": ["Best Paper"]}, {"id": "p-human-action-classification-using-yolo-and-voice-recognition-7b50fa", "authors": "Hijiri Suzuki, Takayuki Ito, Shun Okuhara, Rafik Hadfi , and Ahmed Moutafa,", "authors_list": ["Hijiri Suzuki", "Takayuki Ito", "Shun Okuhara", "Rafik Hadfi", "and Ahmed Moutafa"], "title": "Human Action Classification using YOLO and Voice Recognition in factories", "venue": "The 15th International Conference on Knowledge, Information and Creativity Support Systems (KICSS2020). Tasmania, Australia, 25-27 November 2020", "year": 2020, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-argumentative-conversational-agent-for-polarized-online-deba-8d6384", "authors": "Rafik Hadfi and Takayuki Ito", "authors_list": ["Rafik Hadfi and Takayuki Ito"], "title": "Argumentative Conversational Agent for Polarized Online Debates", "venue": "DEXA-HAI-2020 (ECAI Workshop). June 8, 2020. Spain", "year": 2020, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-a-study-on-the-polarisation-effects-of-biased-conversational-b34a79", "authors": "Rafik Hadfi , Naoki Kawamura, Atsuya Sakai,  Naoko Yamaguchi, and Takayuki Ito", "authors_list": ["Rafik Hadfi", "Naoki Kawamura", "Atsuya Sakai", "Naoko Yamaguchi", "and Takayuki Ito"], "title": "A Study on the Polarisation Effects of Biased Conversational Agents in Online Debates", "venue": ", The Japanese Society for Artificial Intelligence (JSAI2020), Kumamoto, Japan. June 9-12, 2020", "year": 2020, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-a-node-classification-approach-for-dynamically-extracting-th-933a4c", "authors": "Shota Suzuki, Takayuki Ito, Ahmed Moustafa, and Rafik Hadfi", "authors_list": ["Shota Suzuki", "Takayuki Ito", "Ahmed Moustafa", "and Rafik Hadfi"], "title": "A Node Classification Approach for Dynamically Extracting the Structures of Online Discussions", "venue": "The Japanese Society for Artificial Intelligence (JSAI2020), Kumamoto, Japan. June 9-12, 2020 (JSAI Annual Conference Award)", "year": 2020, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-a-contribution-to-covid-19-prevention-through-crowd-collabor-05174b", "authors": "Jawad Haqbeen, Takayuki Ito, Sofia Sahab, Rafik Hadfi , Shun Okuhara, Nasim Saba, Murtaza Hofiani and Umar Baregzai", "authors_list": ["Jawad Haqbeen", "Takayuki Ito", "Sofia Sahab", "Rafik Hadfi", "Shun Okuhara", "Nasim Saba", "Murtaza Hofiani and Umar Baregzai"], "title": "A Contribution to COVID-19 Prevention through Crowd Collaboration using Conversational AI & Social Platforms", "venue": "Harvard CRCS Workshop. AI4SG. July 20-21, 2020", "year": 2020, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-solving-tree-problems-with-category-theory2018-754d41", "authors": "Rafik Hadfi ,", "authors_list": ["Rafik Hadfi"], "title": "Solving Tree Problems with Category Theory", "venue": "In International Conference on Artificial General Intelligence 2018 Aug 22 (pp. 62-76). Springer, Cham", "year": 2018, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-an-implementation-of-large-scale-holonic-multi-agent-society-170367", "authors": "Takayuki Ito, Takanobu Otsuka, Teruyoshi Imaeda and Rafik Hadfi ,", "authors_list": ["Takayuki Ito", "Takanobu Otsuka", "Teruyoshi Imaeda and Rafik Hadfi"], "title": "An Implementation of Large-scale Holonic Multi-agent Society Simulator and Agent Behavior Model", "venue": "The 15th Pacific Rim International Conference on Artificial Intelligence (PRICAI 2018) August 27-31, 2018, Nanjing, China", "year": 2018, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-traffic-simulation-in-urban-networks-using-stochastic-cell-t-5f5e50", "authors": "Rafik Hadfi , Sho Tokuda, and Takayuki ito", "authors_list": ["Rafik Hadfi", "Sho Tokuda", "and Takayuki ito"], "title": "Traffic Simulation in Urban Networks using Stochastic Cell Transmission Model", "venue": "Computational Intelligence. Volume 33, Number 4 (2017). p826-842. https://doi.org/10.1111/coin.12115 (IF 1.8) DOI", "year": 2017, "doi": "https://doi.org/10.1111/coin.12115", "pdf": null, "url": "https://doi.org/10.1111/coin.12115", "badges": []}, {"id": "p-modern-approaches-to-agent-based-complex-automated-negotiati-f59993", "authors": "Fujita, K., Bai, Q., Ito, T., Zhang, M., Ren, F., Aydogan, R. and Hadfi, R", "authors_list": ["Fujita", "K.", "Bai", "Q.", "Ito", "T.", "Zhang", "M.", "Ren", "F.", "Aydogan", "R. and Hadfi", "R"], "title": "Modern Approaches to Agent-based Complex Automated Negotiation", "venue": "Studies in Computational Intelligence, Springer, 2017. https://doi.org/10.1007/978-3-319-51563-2 DOI", "year": 2017, "doi": "https://doi.org/10.1007/978-3-319-51563-2", "pdf": null, "url": "https://doi.org/10.1007/978-3-319-51563-2", "badges": []}, {"id": "p-boundary-exploration-in-enactivist-artificial-agents2017-842792", "authors": "Rafik Hadfi and Jakob Hohwy,", "authors_list": ["Rafik Hadfi and Jakob Hohwy"], "title": "Boundary Exploration in Enactivist Artificial Agents", "venue": "Science of the Self: The Agency and Body Representation Research Forum. 20-22 November, 2017. Sydney, Australia (Poster)", "year": 2017, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-a-pipeline-multiagent-architecture-for-road-traffic-simulati-601324", "authors": "Rafik Hadfi , Masayuki Hayashi, and Takayuki Ito", "authors_list": ["Rafik Hadfi", "Masayuki Hayashi", "and Takayuki Ito"], "title": "A Pipeline Multiagent Architecture for Road Traffic Simulation", "venue": "Intelligent Transport Systems (ITS) World Congress 2017. Montréal, Canada. October 29 - November 2, 2017", "year": 2017, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-social-influence-analysis-based-on-facial-emotions2016-47423b", "authors": "Pankaj Mishra, Rafik Hadfi , and Takayuki Ito", "authors_list": ["Pankaj Mishra", "Rafik Hadfi", "and Takayuki Ito"], "title": "Social Influence Analysis based on Facial Emotions", "venue": "SocInf 2016, New York City, July 9-15, 2016", "year": 2016, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-role-of-human-emotions-in-social-influence2016-8df769", "authors": "Pankaj Mishra, Rafik Hadfi and Takayuki Ito", "authors_list": ["Pankaj Mishra", "Rafik Hadfi and Takayuki Ito"], "title": "Role of Human Emotions in Social Influence", "venue": ", International Journal of Information Technology, Vol 22, No 02, 2016. (IF 1.4)", "year": 2016, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-role-of-human-emotions-in-social-influence2016-8df769", "authors": "Pankaj Mishra, Rafik Hadfi and Takayuki Ito", "authors_list": ["Pankaj Mishra", "Rafik Hadfi and Takayuki Ito"], "title": "Role of Human Emotions in Social Influence", "venue": "International Conference on Crowd Science and Engineering (ICCSE), 27-30 July 2016, Vancover, Canada", "year": 2016, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-ontology-based-architecture-for-intelligent-transportation-s-3bcfdb", "authors": "Susel Fernández, Rafik Hadfi , Takayuki Ito, Iván Marsá, and Juan R. Velasco", "authors_list": ["Susel Fernández", "Rafik Hadfi", "Takayuki Ito", "Iván Marsá", "and Juan R. Velasco"], "title": "Ontology-Based Architecture for Intelligent Transportation Systems Using a Traffic Sensor Network", "venue": "Sensors. 2016; 16(8) p1287. https://doi.org/10.3390/s16081287 (IF 3.9) DOI", "year": 2016, "doi": "https://doi.org/10.3390/s16081287", "pdf": null, "url": "https://doi.org/10.3390/s16081287", "badges": []}, {"id": "p-multiagent-social-influence-detection-based-on-facial-emotio-bfd246", "authors": "Pankaj Mishra, Rafik Hadfi , and Takayuki Ito", "authors_list": ["Pankaj Mishra", "Rafik Hadfi", "and Takayuki Ito"], "title": "Multiagent Social Influence Detection based on Facial Emotion Recognition", "venue": "PAAMS 2016", "year": 2016, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-holonic-multiagent-simulation-of-complex-adaptive-systems201-3418af", "authors": "Rafik Hadfi , Takayuki Ito", "authors_list": ["Rafik Hadfi", "Takayuki Ito"], "title": "Holonic Multiagent Simulation of Complex Adaptive Systems", "venue": "PAAMS 2016", "year": 2016, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-approach-to-discover-correlation-with-social-affinity-and-em-a0650c", "authors": "Pankaj Mishra, Rafik Hadfi and Takayuki Ito", "authors_list": ["Pankaj Mishra", "Rafik Hadfi and Takayuki Ito"], "title": "Approach to Discover Correlation with Social Affinity and Emotions", "venue": "IEEE International Conference on Agents (IEEE ICA 2016), September 28-30, 2016, Matsue, Japan", "year": 2016, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-adaptive-model-for-traffic-congestion-prediction2016-3dc76f", "authors": "Pankaj Mishra, Rafik Hadfi and Takayuki Ito", "authors_list": ["Pankaj Mishra", "Rafik Hadfi and Takayuki Ito"], "title": "Adaptive Model for Traffic Congestion Prediction", "venue": "The 29th International Conference on Industrial, Engineering & Other Applications of Applied Intelligent Systems (IEA/AIE), 2-4 August 2016, Morioka, Japan", "year": 2016, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-a-baseline-for-nonlinear-bilateral-negotiations-the-full-res-91811a", "authors": "Reyhan Aydogan, Catholijn M. Jonker, Katsuhide Fujita, Tim Baarslag, Takayuki Ito, Rafik Hadfi , and Kohei Hayakawa", "authors_list": ["Reyhan Aydogan", "Catholijn M. Jonker", "Katsuhide Fujita", "Tim Baarslag", "Takayuki Ito", "Rafik Hadfi", "and Kohei Hayakawa"], "title": "A Baseline for Nonlinear Bilateral Negotiations: The full results of the agents competing in ANAC 2014", "venue": "Frontiers in Artificial Intelligence: Intelligent Computational Systems, 2016", "year": 2016, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-low-complexity-exploration-in-utility-hypergraphs2015-88e739", "authors": "Rafik Hadfi and Takayuki Ito", "authors_list": ["Rafik Hadfi and Takayuki Ito"], "title": "Low-Complexity Exploration in Utility Hypergraphs", "venue": "Journal of Information Processing (JIP). Vol. 23 No 2. (2015) p176-184 https://doi.org/10.2197/ipsjjip.23.176 DOI", "year": 2015, "doi": "https://doi.org/10.2197/ipsjjip.23.176", "pdf": null, "url": "https://doi.org/10.2197/ipsjjip.23.176", "badges": []}, {"id": "p-complex-multi-issue-negotiation-using-utility-hyper-graphs20-847bae", "authors": "Rafik Hadfi , Takayuki Ito", "authors_list": ["Rafik Hadfi", "Takayuki Ito"], "title": "Complex Multi-Issue Negotiation using Utility Hyper-graphs", "venue": "Journal of Advanced Computational Intelligence and Intelligent Informatics (JACIII), p514-522, Vol. 19, No. 4, 2015 https://doi.org/10.20965/jaciii.2015.p0514 DOI", "year": 2015, "doi": "https://doi.org/10.20965/jaciii.2015.p0514", "pdf": null, "url": "https://doi.org/10.20965/jaciii.2015.p0514", "badges": []}, {"id": "p-architecture-for-intelligent-transportation-system-based-in-37c6f0", "authors": "Susel Fernández, Takayuki Ito, and Rafik Hadfi", "authors_list": ["Susel Fernández", "Takayuki Ito", "and Rafik Hadfi"], "title": "Architecture for Intelligent Transportation System based in a General Traffic Ontology", "venue": "In ICIS2015, June 28 - July 1 2015, Las Vegas, U.S.A", "year": 2015, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-unifying-constraint-based-utility-functions2014-25dc49", "authors": "Rafik Hadfi , Takayuki Ito", "authors_list": ["Rafik Hadfi", "Takayuki Ito"], "title": "Unifying Constraint-based Utility Functions", "venue": "JAWS 2014, Kyushu, Japan, Oct 27-29, 2014 (IEEE Young Researcher Award)", "year": 2014, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-optimal-non-adaptive-concession-strategies-with-incomplete-i-7a3a2a", "authors": "Tim Baarslag, Rafik Hadfi , Koen Hindriks, Takayuki Ito and Catholijn Jonker", "authors_list": ["Tim Baarslag", "Rafik Hadfi", "Koen Hindriks", "Takayuki Ito and Catholijn Jonker"], "title": "Optimal Non-adaptive Concession Strategies with Incomplete Information", "venue": "ACAN 2014, Paris, France, May 5-6, 2014", "year": 2014, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-on-the-complexity-of-utility-hypergraphs2014-38de5e", "authors": "Rafik Hadfi , Takayuki Ito", "authors_list": ["Rafik Hadfi", "Takayuki Ito"], "title": "On the Complexity of Utility Hypergraphs", "venue": "ACAN 2014, Paris, France, May 5-6, 2014", "year": 2014, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-modeling-complex-nonlinear-utility-spaces-using-utility-hype-bf0422", "authors": "Rafik Hadfi , Takayuki Ito", "authors_list": ["Rafik Hadfi", "Takayuki Ito"], "title": "Modeling Complex Nonlinear Utility Spaces using Utility Hyper-graphs", "venue": "MDAI2014, Tokyo, Japan, October 29-31, 2014", "year": 2014, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-constraint-based-preferences-via-utility-hyper-graphs2014-e6d9b0", "authors": "Rafik Hadfi , Takayuki Ito", "authors_list": ["Rafik Hadfi", "Takayuki Ito"], "title": "Constraint-based Preferences via Utility Hyper-graphs", "venue": "MPREF 2014 (AAAI 2014), Québec City, Canada, July 27-31, 2014", "year": 2014, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-approximating-constraint-based-utility-spaces-using-generali-596f40", "authors": "Rafik Hadfi , Takayuki Ito", "authors_list": ["Rafik Hadfi", "Takayuki Ito"], "title": "Approximating Constraint-based Utility Spaces using Generalized Gaussian Mixture Models", "venue": "PRIMA2014, Gold Coast, QLD, Australia, December 1-5, 2014", "year": 2014, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-addressing-complexity-in-multi-issue-negotiation-via-utility-393c5c", "authors": "Rafik Hadfi , Takayuki Ito", "authors_list": ["Rafik Hadfi", "Takayuki Ito"], "title": "Addressing Complexity in Multi-Issue Negotiation via Utility Hypergraphs", "venue": "AAAI 2014, Québec City, Canada, July 27-31, 2014 (AAAI Student Scholarship Award)", "year": 2014, "doi": null, "pdf": null, "url": null, "badges": ["Award"]}, {"id": "p-uncertainty-of-cognitive-processes-with-high-information-loa-ca6735", "authors": "Rafik Hadfi , Takayuki Ito", "authors_list": ["Rafik Hadfi", "Takayuki Ito"], "title": "Uncertainty of Cognitive Processes with High-Information Load", "venue": "ICCS 2013, Sarawak, Malaysia, August 27-30, 2013", "year": 2013, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-cognition-as-a-game-of-complexity2013-bf95ab", "authors": "Rafik Hadfi , Takayuki Ito", "authors_list": ["Rafik Hadfi", "Takayuki Ito"], "title": "Cognition as a Game of Complexity", "venue": "ICCM 2013, Carleton University, Ottawa, Canada, July 11-14, 2013", "year": 2013, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-distributed-group-formation-among-agents-based-on-decisional-c646f4", "authors": "Rafik Hadfi , Takayuki Ito", "authors_list": ["Rafik Hadfi", "Takayuki Ito"], "title": "Distributed group formation among agents based on decisional structures and linguistic mediation rules", "venue": "JAWS/iJAWS 2012, Shizuoka, Japan, Oct 24-26, 2012", "year": 2012, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-asymptotic-maximum-entropy-principle-for-utility-elicitation-9d9032", "authors": "Rafik Hadfi , Takayuki Ito", "authors_list": ["Rafik Hadfi", "Takayuki Ito"], "title": "Asymptotic Maximum Entropy principle for Utility Elicitation under High Uncertainty and Partial Information", "venue": "FLAIRS 2012, Marco Island, Florida, USA, May 23-25, 2012", "year": 2012, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-application-of-the-maximum-entropy-principle-to-preferences-a62641", "authors": "Rafik Hadfi , Takayuki Ito", "authors_list": ["Rafik Hadfi", "Takayuki Ito"], "title": "Application of the Maximum Entropy Principle to Preferences Merging: Case of Utility Functions with Infinite Outcomes", "venue": "ACAN 2012, Valencia, Spain, June 4-5, 2012", "year": 2012, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-agreement-among-agents-based-on-decisional-structures-and-it-95091a", "authors": "Rafik Hedfi , Takayuki Ito", "authors_list": ["Rafik Hedfi", "Takayuki Ito"], "title": "Agreement among Agents based on Decisional Structures and its Application to Group Formation", "venue": "ACAN 2011, Taipei, Taiwan, May 2-6, 2011 (ACAN Best Student Presentation Award)", "year": 2011, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-towards-collective-collaborative-design-an-implementation-of-b1a936", "authors": "Rafik Hedfi , Takayuki Ito and Katsuhide Fujita", "authors_list": ["Rafik Hedfi", "Takayuki Ito and Katsuhide Fujita"], "title": "Towards Collective Collaborative Design: An Implementation of Agent-Mediated Collaborative 3D Products Design System", "venue": "IMASC 2010, Chicago, USA, May 17-21, 2010", "year": 2010, "doi": null, "pdf": null, "url": null, "badges": []}, {"id": "p-a-learning-interface-agent-for-collaborative-multi-attribute-740ffb", "authors": "Rafik Hedfi , Takayuki Ito", "authors_list": ["Rafik Hedfi", "Takayuki Ito"], "title": "A Learning Interface Agent for Collaborative Multi-attribute Design using Semi Supervised Clustering", "venue": "JAWS/iJAWS 2010, Furano, Hokkaido, Oct 29, 2010", "year": 2010, "doi": null, "pdf": null, "url": null, "badges": []}]</script><script>
+(()=>{
+  const dataEl = document.getElementById('pub-data');
+  if(!dataEl) return;
+  const pubs = JSON.parse(dataEl.textContent);
+  const out = document.getElementById('pub-output');
+  const yearbar = document.getElementById('pub-yearbar-inner');
+  const search = document.getElementById('pub-search');
 
-    <title>Rafik Hadfi</title>    
-    
-    <meta charset="utf-8">
-    <meta name="keywords" content="Rafik,Hadfi,Kyoto,Autonomy,Monash,Australia,Nagoya,Japan,Research,Agent,Distributed,Systems,Simulation,Complex,Contract,Negotiation,Decision,Machine,Learning,Deep,Engineering,University,Academic,Artificial,Intelligence,Consciousness,Blockchain,Publications,Lab,Neuroscience,Philosophy,Robotics">
-    <meta name="description" content="Rafik Hadfi&#039;s research on artificial intelligence.">
-    <meta name="author" content="Rafik Hadfi">
+  function html(strings,...vals){ return strings.reduce((s, str, i)=> s + str + (vals[i] ?? ''), ''); }
 
-   	<!-- mobile specific metas -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	
-	<link rel="stylesheet" href="css/main.css">	
-	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-	<script src="js/jquery.js" type="text/javascript"></script>	
-	<script src="js/scripts.js" type="text/javascript"></script>
+  function groupByYear(list){
+    const map = new Map();
+    for(const p of list){
+      const y = p.year || 'Other';
+      if(!map.has(y)) map.set(y, []);
+      map.get(y).push(p);
+    }
+    // sort each year block by title
+    for(const [y, arr] of map) arr.sort((a,b)=> a.title.localeCompare(b.title));
+    // sort years desc, 'Other' last
+    const years = Array.from(map.keys()).sort((a,b)=>{
+      if(a==='Other') return 1;
+      if(b==='Other') return -1;
+      return Number(b) - Number(a);
+    });
+    return {map, years};
+  }
 
-</head>
-<body>
+  function buildYearbar(years){
+    yearbar.innerHTML = '';
+    for(const y of years){
+      if(y==='Other') continue;
+      const a = document.createElement('a');
+      a.className = 'chip';
+      a.href = `#pub-${y}`;
+      a.textContent = String(y);
+      yearbar.appendChild(a);
+    }
+  }
 
-	<div class="content">
+  function citeStrings(p){
+    const authors = p.authors || '';
+    const title = p.title || '';
+    const year = p.year || '';
+    const venue = p.venue || '';
+    const doi = p.doi || '';
+    const url = p.url || '';
+    const key = (authors.split(',')[0] || 'ref').split(' ').pop().toLowerCase() + year;
+    const bibtex = `@misc{${key},
+  author = {${authors}},
+  title = {${title}},
+  year = {${year}},
+  howpublished = {${venue}}${doi?`,\n  doi = {${doi}}`:''}${url?`,\n  url = {${url}}`:''}
+}`;
+    const apa = `${authors}. (${year}). ${title}. ${venue}.${doi?` https://doi.org/${doi.split('doi.org/')[1]||''}`:''}`.trim();
+    const mla = `${authors}. “${title}.” ${venue}, ${year}.${doi?` ${doi}`:''}`.trim();
+    return {bibtex, apa, mla};
+  }
 
-		<div id="header">
-			<div id="header-content">
-				<h1>Rafik Hadfi</h1>
-			</div>
+  function makeBadges(p){
+    const wrap = document.createElement('span');
+    wrap.className = 'badges';
+    if(p.doi){
+      const a = document.createElement('a');
+      a.href = p.doi; a.className = 'badge badge-doi'; a.target = '_blank'; a.rel = 'noopener';
+      a.textContent = 'DOI';
+      wrap.appendChild(document.createTextNode(' '));
+      wrap.appendChild(a);
+    }
+    if(p.pdf){
+      const a = document.createElement('a');
+      a.href = p.pdf; a.className = 'badge badge-pdf'; a.target = '_blank'; a.rel = 'noopener';
+      a.textContent = 'PDF';
+      wrap.appendChild(document.createTextNode(' '));
+      wrap.appendChild(a);
+    }
+    if(p.badges && p.badges.length){
+      for(const b of p.badges){
+        const sp = document.createElement('span');
+        sp.className = 'badge badge-award';
+        sp.textContent = b;
+        wrap.appendChild(document.createTextNode(' '));
+        wrap.appendChild(sp);
+      }
+    }
+    // Cite badge
+    const citeBtn = document.createElement('button');
+    citeBtn.type = 'button';
+    citeBtn.className = 'badge badge-cite';
+    citeBtn.textContent = 'Cite';
+    citeBtn.addEventListener('click', (e)=>{
+      e.preventDefault();
+      showCiteMenu(citeBtn, p);
+    });
+    wrap.appendChild(document.createTextNode(' '));
+    wrap.appendChild(citeBtn);
+    return wrap;
+  }
+
+  function showCiteMenu(anchor, p){
+    // Remove existing
+    document.querySelectorAll('.cite-pop').forEach(el=>el.remove());
+    const {bibtex, apa, mla} = citeStrings(p);
+    const pop = document.createElement('div');
+    pop.className = 'cite-pop';
+    pop.innerHTML = html`
+      <div class="cite-row"><strong>BibTeX</strong><button data-copy="${bibtex.replace(/"/g,'&quot;')}">Copy</button></div>
+      <pre>${bibtex}</pre>
+      <div class="cite-row"><strong>APA</strong><button data-copy="${apa.replace(/"/g,'&quot;')}">Copy</button></div>
+      <pre>${apa}</pre>
+      <div class="cite-row"><strong>MLA</strong><button data-copy="${mla.replace(/"/g,'&quot;')}">Copy</button></div>
+      <pre>${mla}</pre>
+    `;
+    document.body.appendChild(pop);
+    // position
+    const r = anchor.getBoundingClientRect();
+    pop.style.left = `${r.left + window.scrollX}px`;
+    pop.style.top = `${r.bottom + window.scrollY + 8}px`;
+    pop.addEventListener('click', (e)=>{
+      const btn = e.target.closest('button[data-copy]');
+      if(btn){
+        const txt = btn.getAttribute('data-copy');
+        navigator.clipboard.writeText(txt.replace(/&quot;/g,'"')).then(()=>{
+          btn.textContent = 'Copied!';
+          setTimeout(()=>btn.textContent='Copy', 1200);
+        });
+      }
+    });
+    function close(e){
+      if(!pop.contains(e.target) && e.target !== anchor){
+        pop.remove(); document.removeEventListener('click', close);
+      }
+    }
+    setTimeout(()=>document.addEventListener('click', close), 0);
+  }
+
+  function injectJSONLD(list){
+    // clear previous
+    document.querySelectorAll('script[data-jsonld="pub"]').forEach(s=>s.remove());
+    for(const p of list){
+      if(!p.doi) continue;
+      const s = document.createElement('script');
+      s.type = 'application/ld+json';
+      s.setAttribute('data-jsonld','pub');
+      const thing = {
+        "@context":"https://schema.org",
+        "@type":"ScholarlyArticle",
+        "name": p.title,
+        "author": (p.authors_list||[]).map(a=>({"@type":"Person","name":a})),
+        "datePublished": String(p.year||""),
+        "isPartOf": {"@type":"PublicationVolume", "name": p.venue || ""},
+        "sameAs": p.doi,
+        "url": p.url || p.doi
+      };
+      s.textContent = JSON.stringify(thing);
+      document.body.appendChild(s);
+    }
+  }
+
+  function render(list){
+    const {map, years} = groupByYear(list);
+    buildYearbar(years);
+    out.innerHTML = '';
+    const latestYears = years.filter(y=>y!=='Other').slice(0,2);
+    for(const y of years){
+      const h3 = document.createElement('h3');
+      h3.className = 'year';
+      h3.id = `pub-${y}`;
+      h3.textContent = y;
+      out.appendChild(h3);
+      const ul = document.createElement('ul');
+      ul.className = 'pub-list';
+      const expanded = latestYears.includes(y);
+      if(!expanded){
+        ul.setAttribute('data-collapsed','');
+      }
+      for(const p of map.get(y)){
+        const li = document.createElement('li');
+        li.id = p.id;
+        const a = document.createElement('span'); a.className='pub-authors'; a.innerHTML = p.authors.replace(/(^|,\s*)(Rafik Hadfi)/g,'$1<strong>$2</strong>');
+        const t = document.createElement('span'); t.className='pub-title'; t.textContent = ` “${p.title}” `;
+        const v = document.createElement('em'); v.className='pub-venue'; v.textContent = p.venue ? ` ${p.venue}` : '';
+        const perm = document.createElement('a'); perm.className='permalink'; perm.href = `#${p.id}`; perm.setAttribute('aria-label','Permalink to this publication'); perm.textContent = '#';
+        li.appendChild(a); li.appendChild(t); li.appendChild(document.createTextNode('—')); li.appendChild(v); 
+        li.appendChild(makeBadges(p));
+        li.appendChild(perm);
+        ul.appendChild(li);
+      }
+      out.appendChild(ul);
+      if(map.get(y).length>0 && !latestYears.includes(y)){
+        const more = document.createElement('button');
+        more.type='button'; more.className='show-more'; 
+        const n = map.get(y).length;
+        more.textContent = `Show ${n} ${n>1?'publications':'publication'}`;
+        more.addEventListener('click',()=>{ ul.removeAttribute('data-collapsed'); more.remove(); });
+        out.appendChild(more);
+      }
+    }
+    injectJSONLD(list);
+  }
+
+  function filterList(q){
+    q = q.trim().toLowerCase();
+    if(!q) return pubs;
+    return pubs.filter(p=>{
+      const hay = `${p.authors} ${p.title} ${p.venue} ${p.year} ${p.doi} ${p.url}`.toLowerCase();
+      return q.split(/\s+/).every(tok=> hay.includes(tok));
+    });
+  }
+
+  // initial render
+  render(pubs);
+
+  // events
+  let t;
+  search && search.addEventListener('input', (e)=>{
+    clearTimeout(t);
+    t = setTimeout(()=> render(filterList(e.target.value)), 120);
+  });
+})();
+</script><script>
+(()=>{
+  const dataEl = document.getElementById('pub-data');
+  const pubs = dataEl ? JSON.parse(dataEl.textContent) : [];
+  const wrap = document.getElementById('pub-export-menu');
+  if(!wrap) return;
+  const btn = document.getElementById('pub-export');
+  const pop = wrap.querySelector('.export-pop');
+  function bibtexAll(list){
+    const lines = [];
+    function cite(p){
+      const authors = p.authors || '';
+      const title = p.title || '';
+      const year = p.year || '';
+      const venue = p.venue || '';
+      const doi = p.doi || '';
+      const url = p.url || '';
+      const key = (authors.split(',')[0] || 'ref').split(' ').pop().toLowerCase() + year;
+      return `@misc{${key},
+  author = {${authors}},
+  title = {${title}},
+  year = {${year}},
+  howpublished = {${venue}}${doi?`,\n  doi = {${doi}}`:''}${url?`,\n  url = {${url}}`:''}
+}`;
+    }
+    for(const p of list) lines.push(cite(p),''); 
+    return lines.join('\n');
+  }
+  function risAll(list){
+    function ris(p){
+      const lines = ['TY  - GEN'];
+      if(p.title) lines.push(`TI  - ${p.title}`);
+      if(p.authors_list) for(const a of p.authors_list) lines.push(`AU  - ${a}`);
+      if(p.venue) lines.push(`T2  - ${p.venue}`);
+      if(p.year) lines.push(`PY  - ${p.year}`);
+      if(p.doi) lines.push(`DO  - ${p.doi.replace(/^https?:\/\/doi\.org\//,'')}`);
+      if(p.url) lines.push(`UR  - ${p.url}`);
+      lines.push('ER  - ');
+      return lines.join('\n');
+    }
+    return list.map(ris).join('\n');
+  }
+  function csvAll(list){
+    const esc = v => `"${String(v||'').replace(/"/g,'""')}"`;
+    const head = 'authors,title,venue,year,doi,url,badges';
+    const rows = list.map(p=>[p.authors,p.title,p.venue,p.year,p.doi,p.url,(p.badges||[]).join('|')]);
+    return [head, ...rows.map(r=>r.map(esc).join(','))].join('\n');
+  }
+  function download(text, name, mime='text/plain'){
+    const blob = new Blob([text], {type: mime});
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = name;
+    document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(a.href), 1000);
+  }
+  btn?.addEventListener('click', ()=>{
+    pop.hidden = !pop.hidden;
+  });
+  pop?.addEventListener('click', (e)=>{
+    const kind = e.target?.getAttribute?.('data-kind');
+    if(!kind) return;
+    if(kind==='CSV') download(csvAll(pubs), 'publications.csv', 'text/csv');
+    if(kind==='BibTeX') download(bibtexAll(pubs), 'publications.bib', 'text/x-bibtex');
+    if(kind==='RIS') download(risAll(pubs), 'publications.ris', 'application/x-research-info-systems');
+    pop.hidden = true;
+  });
+  document.addEventListener('click', (e)=>{
+    if(!wrap.contains(e.target)) pop.hidden = true;
+  });
+})();
+</script></div>
+</div>
+</section>
+<section class="section" id="projects">
+<div class="container">
+<div class="section-head">
+<h2 class="section-title">Projects</h2>
+</div>
+<div class="card section-body"><ul class="pub-list"><li><a href="https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-23K28145" rel="noopener" target="_blank">Human‑Centric Autonomy from Agentic Dynamics — JSPS KAKENHI (B), Project 23K28145</a></li><li><a href="https://compsoc.algocratic.org" rel="noopener" target="_blank">Leveraging agent technologies, machine learning, and social choice in competitive settings</a></li><li><a href="https://nrid.nii.ac.jp/en/nrid/1000030867495/" rel="noopener" target="_blank">Other projects</a></li></ul></div>
+</div>
+</section>
+<section class="section" id="employment">
+<div class="container">
+<div class="section-head">
+<h2 class="section-title">Employment</h2>
+</div>
+<div class="card section-body">
+<div class="timeline"><div class="timeline">
+<div class="timeline-item">
+<div class="timeline-icon">
+</div>
+<div class="timeline-content right">
+<h2 class="timeline-content-date">February 2023 - Present</h2>
+		  Associate Professor, Department of Social Informatics, Graduate School of Informatics, Kyoto University, Kyoto, Japan<br/>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-icon">
+</div>
+<div class="timeline-content right">
+<h2 class="timeline-content-date">December 2020 - January 2023</h2>
+		  Assistant Professor, Department of Social Informatics, Graduate School of Informatics, Kyoto University, Kyoto, Japan<br/>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-icon">
+</div>
+<div class="timeline-content right">
+<h2 class="timeline-content-date">September 2019 - December 2020</h2>
+		  
+		  Adjunct Assistant Professor, Nagoya Institute of Technology<br/>
+		  Department of Computer Science and Engineering<br/>
+<button class="button-purple" id="button3" onclick="seeDetails(3)">▼</button>
+<div class="details" id="Details3">
+Building conversational agents for persuasive discussions using Natural Language Processing/Generation (LSTM, GAN), Sentiment Analysis, and Formal Argumentation.<br/>
+Productionalizing and deploying NLP models using AWS (EC2, ECS, Lambda, S3, CloudWatch).<br/>
+</div>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-icon">
+</div>
+<div class="timeline-content right">
+<h2 class="timeline-content-date">April 2017 - February 2019</h2>
+		  	Research Fellow, Monash University<br/>
+		  	School of Psychological Sciences. Faculty of Medicine, Nursing &amp; Health Sciences<br/>
+		  	Philosophy Department. School of Philosophical, Historical &amp; International Studies<br/>
+<button class="button-purple" id="button1" onclick="seeDetails(1)">▼</button>
+<div class="details" id="Details1">
+						Study of the evolution of fitness and integrated information in artificial agents.<br/>
+						Study of consciousness in bacterium-like artificial agents.<br/>
+						Artificial General Intelligence using Category Theory.<br/>
+						Agent-based modelling of 4E Cognition in unknown environments.<br/>
+						Boundary exploration in enactive artificial agents.<br/>
+						Active inference in simulated environments.
+					  </div>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-icon">
+</div>
+<div class="timeline-content right">
+<h2 class="timeline-content-date">April 2015 - March 2017</h2>
+		  	
+		  	Postdoctoral Researcher, Nagoya Institute of Technology<br/>
+		  	Department of Computer Science and Engineering<br/>
+<button class="button-purple" id="button2" onclick="seeDetails(2)">▼</button>
+<div class="details" id="Details2">
+						Large-scale multiagent simulation of road traffic.<br/>
+						Behavioural and microeconomic modelling of drivers and vehicles.<br/>
+						Traffic prediction using Hidden Markov Models (HMM).<br/>
+						Stochastic-cell-transmission traffic simulation.
+				</div>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-icon">
+</div>
+<div class="timeline-content right">
+<h2 class="timeline-content-date">October 2014 - March 2015</h2>
+		  
+		  Research Assistant, Nagoya Institute of Technology<br/>
+		  Department of Computer Science and Engineering<br/>
+<button class="button-purple" id="button3" onclick="seeDetails(3)">▼</button>
+<div class="details" id="Details3">
+							Developing a cloud-based architecture for road traffic management.<br/>
+							Routing application using Android, Google App Engine, and Google Maps APIs.<br/>
+							Mobility generation using driving behavioural models.
+					</div>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-icon">
+</div>
+<div class="timeline-content right">
+<h2 class="timeline-content-date">September 2007 - February 2009</h2>
+		  
+		  Software Engineer<br/>
+<a class="button-white" href="https://www.sagemcom.com/en" target="_blank">Sagem Communications</a>, Embedded systems, Set-top box (STB) division<br/>
+<button class="button-purple" id="button4" onclick="seeDetails(4)">▼</button>
+<div class="details" id="Details4">
+							CPE WAN Management Protocol (CWMP) implementation and deployment for VoIP and IGD protocols.<br/>
+							Auto-configuration server for smart home devices.<br/>
+							EPGs on NetFront and other TNT, SAT, IPTV products.
+					  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section" id="education">
+<div class="container">
+<div class="section-head">
+<h2 class="section-title">Education</h2>
+</div>
+<div class="card section-body">
+<div class="timeline"><div class="timeline">
+<div class="timeline-item">
+<div class="timeline-icon">
+</div>
+<div class="timeline-content right">
+<h2 class="timeline-content-date">April 2012 - March 2015</h2>
+		  
+		  	D.Eng., Nagoya Institute of Technology, Japan<br/>
+			Department of Computer Science and Engineering<br/>
+			Thesis: "Utility Hyper-graphs for Complex Decision-Making"
 			
-			<div id="section-social" class="col-sm-5 social">
-			
-			</div>
 		</div>
-
-    	<div class="sidemenu">
-	    <ul class="unstyled">
-	      <li><a href="#section-welcome">Welcome</a></li>
-	      <li><a href="#section-education">Education</a></li>
-	      <li><a href="#section-experience">Work History</a></li>
-	      <li><a href="#section-projects">Projects</a></li> 
-	      <li><a href="#section-publications">Publications</a></li>
-	      <li><a href="#section-awards">Awards</a></li> 
-	      <li><a href="#section-teaching">Teaching</a></li>
-		<li><a href="#section-activities">Activities</a></li>
-	    </ul>
- 	 </div>
-	<div id="section-welcome" class="tab-content"></div>
-	<div id="section-education" class="tab-content"></div>
-	<div id="section-experience" class="tab-content"></div>
-	<div id="section-publications" class="tab-content"></div>
-	<div id="section-awards" class="tab-content"></div> 
-	<div id="section-teaching" class="tab-content"></div>
-	<div id="section-activities" class="tab-content"></div>
-	<div id="section-projects" class="tab-content"></div>
-
-	</div>
-
-	<footer class="footer">
-			<div class="row">
-				<div class="col-sm-5 copyright">
-					<p>Copyright &copy; 2024 <b>Rafik Hadfi</b></p>
-				</div>     
-			</div>
-	</footer>
-
-</body>
-</html> 
+</div>
+<div class="timeline-item">
+<div class="timeline-icon">
+</div>
+<div class="timeline-content right">
+<h2 class="timeline-content-date">April 2010 - March 2012</h2>
+		  	
+		  	M.Eng., Nagoya Institute of Technology, Japan<br/>
+			Department of Techno-Business Administration<br/>
+			Thesis: "Preferences Elicitation under Uncertainty"
+			
+		</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-icon">
+</div>
+<div class="timeline-content right">
+<h2 class="timeline-content-date">April 2009 - March 2010</h2>
+		  		Research Student, Nagoya Institute of Technology, Japan<br/>
+				Department of Techno-Business Administration<br/>
+				Intensive Japanese Courses for International Research Students<br/>
+				Japanese Government (Monbukagakusho) Scholarship Student (2009-2015)
+		</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-icon">
+</div>
+<div class="timeline-content right">
+<h2 class="timeline-content-date">September 2003 - June 2007</h2>
+		  		B.Eng., Université de Carthage, Tunisia<br/>
+				Major: Computer Science, specialisation in Information Systems engineering<br/>
+				Thesis: "Automated Search Engine Optimization"
+		</div>
+</div>
+</div></div>
+</div>
+</div>
+</section>
+<section class="section" id="teaching">
+<div class="container">
+<div class="section-head">
+<h2 class="section-title">Teaching</h2>
+</div>
+<div class="card section-body">
+<div class="prose"><h3>Teaching subjects</h3>
+<table class="table">
+<!---
+	<tr>
+    <th>From</th>
+    <th>To</th>
+    <th>Course</th>
+    <th>Details</th>
+  </tr> -->
+<tr>
+<td>Apr 2023</td>
+<td>Mar 2026</td>
+<td>Perspectives in Informatics</td>
+<td>5</td>
+<td>Kyoto University, Japan</td>
+</tr>
+<tr>
+<td>Apr 2023</td>
+<td>Mar 2026</td>
+<td>Practice of Information Systems</td>
+<td>3221, Spring, Graduate School of Informatics, 2</td>
+<td>Kyoto University, Japan</td>
+</tr>
+<tr>
+<td>Apr 2023</td>
+<td>Mar 2026</td>
+<td>Basic Informatics-E2</td>
+<td>T051, Spring, Institute for Liberal Arts and Sciences, 2</td>
+<td>Kyoto University, Japan</td>
+</tr>
+<tr>
+<td>Apr 2023</td>
+<td>Mar 2026</td>
+<td>Information and Society-E2</td>
+<td>T018, Spring, Institute for Liberal Arts and Sciences, 2</td>
+<td>Kyoto University, Japan</td>
+</tr>
+<tr>
+<td>Apr 2023</td>
+<td>Mar 2026</td>
+<td>Information and Society-E2</td>
+<td>T018, Fall, Institute for Liberal Arts and Sciences, 2</td>
+<td>Kyoto University, Japan</td>
+</tr>
+<tr>
+<td>Apr 2023</td>
+<td>Mar 2026</td>
+<td>Practice of Basic Informatics-E2</td>
+<td>T056, Fall, Institute for Liberal Arts and Sciences, 2</td>
+<td>Kyoto University, Japan</td>
+</tr>
+<tr>
+<td>Apr 2022</td>
+<td>Mar 2026</td>
+<td>Practice of Information Systems</td>
+<td>3221, Spring, Graduate School of Informatics, 2</td>
+<td>Kyoto University, Japan</td>
+</tr>
+<tr>
+<td>Apr 2021</td>
+<td>Mar 2022</td>
+<td>Practice of Information Systems</td>
+<td>Spring, Graduate School of Informatics</td>
+<td>Kyoto University, Japan</td>
+</tr>
+</table>
+<h3>Invited lectures</h3>
+<table class="table">
+<!--- <tr>
+    <th>When</th>
+    <th></th>
+    <th>Course</th>
+    <th></th>
+  </tr> -->
+<tr>
+<td>Oct 2018</td>
+<td>(Week 10)</td>
+<td>Psy 3280 <a class="generalink" href="../slides/PSY3280_Dehaene2017.pdf" target="_blank">What is consciousness, and could machines have it?</a></td>
+<td>Monash University, Australia</td>
+</tr>
+<tr>
+<td>Oct 2018</td>
+<td>(Week 10)</td>
+<td>Psy 3280 <a class="generalink" href="../slides/PSY3280_Evolution_Animats_and_IIT.pdf" target="_blank">Evolution of animats and Integrated Information</a></td>
+<td>Monash University, Australia</td>
+</tr>
+<tr>
+<td>Oct 2018</td>
+<td>(Week 10)</td>
+<td>Psy 3280 <a class="generalink" href="../slides/PSY3280_Natural_Scene_Perception.pdf" target="_blank">Natural Scene Perception</a></td>
+<td>Monash University, Australia</td>
+</tr>
+</table>
+<h3>Presentations</h3>
+<ul>
+<li><a class="generalink" href="../slides/Solving_Tree_Problems_CT.pdf" target="_blank">Solving Tree Problems using Category Theory</a></li>
+<li><a class="generalink" href="../slides/Cell_groups_and_the_structure_of_stimulus_space.pdf" target="_blank">Cell groups and the structure of stimulus space</a></li>
+<li><a class="generalink" href="../slides/IIT_Group_Interaction.pdf" target="_blank">Integrated Information as a Metric for Group Interaction</a></li>
+<li><a class="generalink" href="../slides/Dependence_Theory_via_Game_Theory.pdf" target="_blank">Dependence Theory via Game Theory</a></li>
+<li><a class="generalink" href="../slides/Active_Inference.pdf" target="_blank">Active Inference: A Process Theory</a></li>
+<li><a class="generalink" href="../slides/Utility_Theory.pdf" target="_blank">Utility Theory: Foundation and Usage in Decision Making</a></li>
+</ul>
+</div>
+</div>
+</div>
+</section><section class="section" id="talks"><div class="container"><div class="section-head"><h2 class="section-title">Talks</h2></div><div class="card"><ul class="talk-list"><li><time class="talk-date">June 14-15, 2025</time> — <span class="talk-title">“Using Large Language Models to Structure and Analyze Political Debates”</span> — <a class="talk-event-link" href="https://sites.google.com/view/ieice-consensus/">The 9th Consensus Study Group. Japan Advanced Institute of Science and Technology (JAIST).</a></li><li><time class="talk-date">1 August 2024</time> — <span class="talk-title">“Structural Metrics for Consensus Readability”</span> — <a class="talk-event-link" href="https://sites.google.com/kyoto-u.ac.jp/sig-consensus">Consen Symposium.  Kyoto University Clock Tower Centennial Hall. Kyoto University, Japan.</a></li><li><time class="talk-date">May 27-28, 2024</time> — <span class="talk-title">“Rethinking Democratic Governance Through Generative AI”</span> — <a class="talk-event-link" href="https://www.aim4dem.nl/cwi-semester-programme/">Research Semester Programme on AI’s Impact on Society, Media, and Democracy at Centrum Wiskunde &amp; Informatica (CWI). Amsterdam, The Netherland.</a></li><li><time class="talk-date">February 21st, 2024</time> — <span class="talk-title">“Rethinking Agency and Autonomy in AI: An Enactive Perspective”</span> — <a class="talk-event-link" href="https://www.chain.hokudai.ac.jp/en/events/3719/">CHAIN Philosophy Workshop “Frontiers of Enactivism in East Asia”. Hokkaido University, Japan.</a></li><li><time class="talk-date">November 9, 2023</time> — <span class="talk-title">“Leveraging Conversational AI to Support Gender Equity”</span> — <a class="talk-event-link" href="https://global-studies.doshisha.ac.jp/news/2023/1107/news-detail-297.html">Rethinking the Ethics of AI' Symposium at Doshisha University, Japan.</a></li><li><time class="talk-date">October 12, 2023</time> — <span class="talk-title">“Conversational Agents for Digital Inclusion”</span> — <a class="talk-event-link" href="https://sites.google.com/view/ccais-seminar/schedule">Citizen-Centric AI Systems Seminars on AI. University of Southampton, UK.</a></li><li><time class="talk-date">October 9, 2023</time> — <span class="talk-title">“Conversational Agents for Digital Inclusion”</span> — <span class="talk-event">Internet Governance Forum (IGF) 2023. Session: International Cooperation for AI &amp; Digital Governance.</span></li><li><time class="talk-date">October 6, 2023</time> — <span class="talk-title">“New Perspectives on Algocratic Governance”</span> — <span class="talk-event">Kyoto University Blockchain Study Group. Kyoto, Japan.</span></li><li><time class="talk-date">February 21-22, 2023</time> — <span class="talk-title">“Deconstructing Individual and Collective Selves”</span> — <span class="talk-event">International Workshop “Toward a Better WE”.  Kyoto University Rakuyu Kaikan (Day 1) and Oku-Biwako Makino Grand Park Hotel (Day 2).</span></li><li><time class="talk-date">Feb 14, 2023</time> — <span class="talk-title">“The Enactive Pathway to AI”</span> — <span class="talk-event">Meet Your KU Community, Kyoto University, Kyoto.</span></li><li><time class="talk-date">November 10th, 2022</time> — <span class="talk-title">“Governance by Simulation”</span> — <span class="talk-event">The 1st International Workshop on Democracy and AI (DemocrAI 2022).</span></li><li><time class="talk-date">Dec 2022</time> — <span class="talk-title">“Society 5.0: Challenges, Implementations, and Implications”</span> — <span class="talk-event">Mie University, Japan.</span></li><li><time class="talk-date">2022</time> — <span class="talk-title">“Theories and Practices of Multiagent Social Simulations”</span> — <span class="talk-event">The International Institute of Applied Informatics (IIAI) 2022. Japan.</span></li><li><time class="talk-date">November 24-26, 2021</time> — <span class="talk-title">“New Trends of Polarization Detection Techniques in Online Discussions”</span> — <span class="talk-event">International Conference on Knowledge, Information and Creativity Support Systems (KICSS). Bangkok, Thailand.</span></li><li><time class="talk-date">16 September 2020</time> — <span class="talk-title">“Conversational Agents in Polarized Online Discussions”</span> — <span class="talk-event">SMASH20 Summer Symposium, Japan.</span></li><li><time class="talk-date">August 2020</time> — <span class="talk-title">“Active Inference: From Biological Organisms to Artificial Intelligence”</span> — <span class="talk-event">Frontier Research Institute for Information Science. Special Seminar on Demand.</span></li><li><time class="talk-date">January 11th, 2018</time> — <span class="talk-title">“Boundary Exploration in Enactive Artificial Agents”</span> — <span class="talk-event">Consciousness Club, Araya, Inc., Tokyo.</span></li><li><time class="talk-date">March 27th, 2017</time> — <span class="talk-title">“New Paradigms in Complex Systems Simulation”</span> — <span class="talk-event">NIT International Symposium on Future Informatics. Nagoya Institute of Technology, Japan.</span></li><li><time class="talk-date">November 17th, 2016</time> — <span class="talk-title">“From a constructivist epistemology to a physical theory of consciousness”</span> — <span class="talk-event">Consciousness Club, RCAST, University of Tokyo, Japan.</span></li></ul></div></div></section>
+<section class="section" id="awards">
+<div class="container">
+<div class="section-head">
+<h2 class="section-title">Awards</h2>
+</div>
+<div class="card section-body">
+<div class="prose"><ul>
+<li> Gregory Kersten GDN Journal Best Paper Award ($3000) on “An Agent that Facilitates Crowd Discussion”, by Ito, Hadfi, and Suzuki, Group Decision and Negotiation, Vol. 31, No. 3, pp. 621-647, 2022.</li>
+<li> Best Paper Award. The 17th International Conference on Knowledge, Information and Creativity Support Systems (2022)</li>
+<li>The Supply Chain Management League Competition Award, 3rd Position (200€), SCML-ANAC-IJCAI . The 13th International Joint Conference on Artificial Intelligence (2021)</li>
+<li>IBM Award of Scientific Excellence. The 18th International Conference on Practical Applications of Agents and Multi-Agent Systems (2020)</li>
+<li>Best Paper Award. The 15th International Conference on Knowledge, Information and Creativity Support Systems (2020)</li>
+<li>Outstanding Student Paper Award. The 15th International Conference on Knowledge, Information and Creativity Support Systems (2020)</li>
+<li>JSAI Annual Conference Award. The Japanese Society for Artificial Intelligence (2020)</li>
+<li>Best Paper Award. Information Processing Society of Japan (IPSJ) National Convention (2016)</li>
+<li>Young Researcher Award. IEEE Computer Society Japan Chapter JAWS (2014)</li>
+<li>Student Scholarship Award. The Association for the Advancement of Artificial Intelligence (2014)</li>
+<li>Best Presentation Award. The International Workshop on Agent Complex Automated Negotiations (2011)</li>
+<li>The Japanese Government Monbukagakusho (MEXT) Scholarship (2009–2015)</li>
+</ul>
+</div>
+</div>
+</div>
+</section><section class="section" id="services"><div class="container"><div class="section-head"><h2 class="section-title">Services</h2></div><div class="card service-block"><h3>Steering Committees</h3><ul class="service-list"><li>Blockchain Kaigi 2025 (BCK 2025)</li><li>Pacific Rim International Conferences on Artificial Intelligence (PRICAI)</li><li>IEEE International Conference on Agents (ICA)</li></ul><h3>Scientific Societies</h3><ul class="service-list"><li>Association for Computing Machinery (ACM)</li><li>Association for the Advancement of Artificial Intelligence (AAAI)</li><li>The Institute of Electrical and Electronics Engineers (IEEE)</li><li>The Japanese Society for Artificial Intelligence (JSAI)</li><li>Information Processing Society of Japan (IPSJ)</li></ul><h3>Positions in International Conferences</h3><ul class="service-list"><li>Advisory Committee — IEEE International Conference on Agentic AI (IEEE ICA 2025)</li><li>Organizer — The 7th International Workshop on Democracy and AI (PRICAI‑DemocrAI 2025) at PRICAI 2025, Wellington, New Zealand. Nov 17–21, 2025</li><li>Organizer — The 6th International Workshop on Democracy and AI (IJCAI‑DemocrAI 2025) at IJCAI 2025, Montreal. Aug 16–22, 2025</li><li><a href="https://compsoc.algocratic.org">Organizer — The 2nd Computational Social Choice Competition (COMPSOC 2024) @IJCAI 2024. Aug 3–9, 2024. Jeju, South Korea</a></li><li>Organization Chair — The 4th International Workshop on Democracy and AI (DemocrAI 2024) @IJCAI 2024. Aug 3–9, 2024. Jeju, South Korea</li><li>General Chair — The 8th IEEE International Conference on Agents (IEEE ICA 2024)</li><li>Program Chair — The 21st Pacific Rim International Conference on Artificial Intelligence (PRICAI 2024)</li><li><a href="https://compsoc.algocratic.org">Organizer — The 1st Computational Social Choice Competition (COMPSOC 2023) @IJCAI 2023. Aug 20, 2023. Macao, S.A.R</a></li><li>Program Chair — The 7th IEEE International Conference on Agents (IEEE ICA 2023)</li><li>Organization Chair — The 2nd International Workshop on Democracy and AI (DemocrAI 2023) @IJCAI 2023. Aug 19–25, 2023. Macao, S.A.R</li><li>Session Chair — The 1st International Workshop on Democracy and AI (DemocrAI 2022). Nov 10, 2022</li><li>Tutorial Chair — The 19th Pacific Rim International Conference on Artificial Intelligence (PRICAI 2022)</li><li>Organization Chair — The 13th International Workshop on Agent‑based Complex Automated Negotiations (ACAN 2022)</li><li>Program Chair — The 6th IEEE International Conference on Agents (IEEE ICA 2022)</li><li>Organization Chair — The 36th Japanese Society for Artificial Intelligence National Convention (JSAI 2022)</li><li>Publication Chair — The 5th IEEE International Conference on Agents (IEEE ICA 2021)</li><li>Volunteer Chair and Web Chair — IJCAI‑PRICAI 2020</li><li>Session Chair: Machine learning, Conversation and Emotions — JSAI 2020, Kumamoto, Japan. Jun 9–12, 2020</li><li>Workshop and Tutorial Chair — PRIMA 2020</li></ul><h3>Program Committee Membership</h3><ul class="service-list"><li>The 3rd International Workshop on Citizen‑Centric Multiagent Systems (C‑MAS 2025) @AAMAS 2025</li><li>Blockchain Kaigi 2024 (BCK 2024)</li><li>The 33rd International Joint Conference on Artificial Intelligence (IJCAI‑24)</li><li>The 38th AAAI Conference on Artificial Intelligence (AAAI 2024)</li><li>The 6th International Workshop on EXplainable and TRAnsparent AI and Multiagent Systems (EXTRAAMAS 2024)</li><li>The 9th International Conference on Robot Ethics and Standards (ICRES 2024)</li><li>The ACM Collective Intelligence Conference 2023 (CI 2023)</li><li>The 5th International Workshop on EXplainable &amp; TRAnsparent AI and Multi‑Agent Systems (EXTRAAMAS 2023)</li><li>The 22nd International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2023)</li><li>The 37th AAAI Conference on Artificial Intelligence (AAAI 2023)</li><li>The 22nd IEEE/WIC International Conference on Web Intelligence and Intelligent Agent Technology (WI‑IAT)</li><li>The 24th International Conference on Principles and Practice of Multi‑Agent Systems (PRIMA 2022)</li><li>The 24th ACIS International Winter Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD 2022‑Winter)</li><li>The 1st ACIS International Symposium on Emotional Artificial Intelligence &amp; Metaverse (EAIM 2022)</li><li>The 7th IEEE/ACIS International Conference on Big Data, Cloud Computing, and Data Science Engineering (BCD 2022)</li><li>The 21st International Symposium on Knowledge and Systems Sciences (KSS 2022)</li><li>The 17th International Conference on Knowledge, Information and Creativity Support Systems (KICSS 2022)</li><li>The 23rd IEEE/ACIS International Summer Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD 2022)</li><li>The 22nd IEEE/ACIS International Fall Conference on Computer and Information Science (ICIS 2022)</li><li>The 30th International Joint Conference on Artificial Intelligence (IJCAI 2021)</li><li>The International Conference on Intelligent Data Science Technologies and Applications (IDSTA 2021)</li><li>The 8th International Conference on Computational Science/Intelligence &amp; Applied Informatics (CSII 2021)</li><li>The IEEE/ACIS 21st International Fall Conference on Computer and Information Science (ICIS 2021‑Fall)</li><li>The IEEE/ACIS 20th International Summer Conference on Computer and Information Science (ICIS 2021‑Summer)</li><li>The 18th International Conference on Information Systems for Crisis Response and Management (ISCRAM 2021)</li><li>The 21st ACIS International Winter Conference on Software Engineering, Artificial Intelligence, Networking and Parallel, Distributed Computing (SNPD 2021)</li><li>The 6th IEEE/ACIS International Conference on Big Data, Cloud Computing, and Data Science Eng. (BCD 2021)</li><li>The 2nd International Workshop on Agent‑based Crowd Decision‑making (AgentCrowd 2020) @AAMAS 2020</li><li>The International Conference on Intelligent Data Science Technologies and Applications (IDSTA 2020)</li><li>The 17th ACS/IEEE International Conference on Computer Systems and Applications (AICCSA 2020)</li><li>The 15th International Conference on Knowledge, Information and Creativity Support Systems (KICSS 2020)</li><li>The IEEE/ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel, Distributed Computing (SNPD 2020)</li><li>The International Conference on Information Systems for Crisis Response and Management (ISCRAM 2020)</li><li>The International Conference on Agents (ICA 2020)</li><li>The IEEE/ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel, Distributed Computing (SNPD 2019)</li><li>The International Conference on Information Systems for Crisis Response and Management (ISCRAM 2019)</li><li>The International Joint Conference on Artificial Intelligence (IJCAI 2019)</li><li>The International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2019)</li><li>The International Conference on Agents (ICA 2019)</li><li>The International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2018)</li><li>IJCAI‑ECAI 2018</li><li>The First International Workshop on Deep and Transfer Learning (DTL 2018)</li><li>AICCSA 2018</li><li>ACAN 2018</li><li>SNPD 2018</li><li>ICA 2018</li><li>ACAN 2017</li><li>ICA 2017</li><li>ICA 2016</li><li>ICIS 2016</li><li>ACAN 2016</li><li>ACAN 2015</li><li>ICIS 2015</li><li>IJAWS 2015</li></ul><h3>International Journal Reviewer</h3><ul class="service-list"><li>Autonomous Agents and Multi‑Agent Systems</li><li>Artificial Intelligence Review</li><li>Neural Computation</li><li>Applied Artificial Intelligence</li><li>Group Decision and Negotiation</li><li>Journal of Advanced Computational Intelligence and Intelligent Informatics</li><li>International Journal of Networked and Distributed Computing</li><li>Annals of Mathematics and Artificial Intelligence</li><li>ACM Transactions on Interactive Intelligent Systems</li><li>IEICE Transactions</li></ul><h3>Society</h3><ul class="service-list"><li>Science For Society (SciFoS) JST Program from August 2021 to March 2022. Interviews with Dr. Takeshi Mizumoto (Co‑Founder &amp; President, Hylable Inc.); Dr. Ryuichiro Higashinaka (Professor, NTT &amp; Graduate School of Informatics, Nagoya University); and Dr. Akiko Horiba (Senior Program Officer, Asia Peace Initiatives Department, Sasakawa Peace Foundation)</li></ul><h3>Grant Reviews</h3><ul class="service-list"><li>UK Research and Innovation (UKRI) Funding Service (UK)</li><li>Grant‑in‑Aid for Scientific Research (KAKENHI), Japan Society for the Promotion of Science (JSPS)</li></ul><h3>Academic Committee Membership at Kyoto University</h3><ul class="service-list"><li>Entrance Exam Committee in the Department of Social Informatics</li><li>Apr 2024 – Mar 2025 Computer Subcommittee</li><li>Apr 2024 – Mar 2025 Information Security Working Committee</li><li>Apr 2023 – Mar 2023 System Operation Working Group</li><li>Apr 2023 – Mar 2024 Information Security Working Group</li></ul></div></div></section>
+<section class="section" id="contact">
+<div class="container">
+<div class="section-head">
+<h2 class="section-title">Contact</h2>
+</div>
+<div class="card section-body">
+<div class="grid grid-2">
+<div>
+<h3>Get in touch</h3>
+<p>For research, collaborations, or speaking engagements, send me an email.</p>
+<a class="button" href="mailto:rafik@example.com">rafik@example.com</a>
+</div>
+<div>
+<div class="stacked">
+</div>
+</div>
+</div>
+<div><h3>Find me online</h3><div class="socials"><a aria-label="Google Scholar" href="https://scholar.google.com/citations?user=dinMPLcAAAAJ&amp;hl=en" title="Google Scholar"><i class="ai ai-google-scholar"></i></a><a aria-label="ORCID" href="https://orcid.org/0000-0003-2352-1936" title="ORCID"><i class="ai ai-orcid"></i></a><a aria-label="ResearchGate" href="https://www.researchgate.net/profile/Rafik_Hadfi" title="ResearchGate"><i class="ai ai-researchgate"></i></a><a aria-label="GitHub" href="https://github.com/raviq" title="GitHub"><i class="fab fa-github"></i></a><a aria-label="LinkedIn" href="https://www.linkedin.com/in/rafik-hadfi" title="LinkedIn"><i class="fab fa-linkedin"></i></a></div></div></div>
+</div>
+</section>
+</main>
+<footer class="footer">
+<div class="container footer-inner">
+<span>© Rafik Hadfi 2025</span>
+<a class="muted" href="#about">Back to top ↑</a>
+<div class="socials"><a aria-label="Google Scholar" href="https://scholar.google.com/citations?user=dinMPLcAAAAJ&amp;hl=en" title="Google Scholar"><i class="ai ai-google-scholar"></i></a><a aria-label="ORCID" href="https://orcid.org/0000-0003-2352-1936" title="ORCID"><i class="ai ai-orcid"></i></a><a aria-label="ResearchGate" href="https://www.researchgate.net/profile/Rafik_Hadfi" title="ResearchGate"><i class="ai ai-researchgate"></i></a><a aria-label="GitHub" href="https://github.com/raviq" title="GitHub"><i class="fab fa-github"></i></a><a aria-label="LinkedIn" href="https://www.linkedin.com/in/rafik-hadfi" title="LinkedIn"><i class="fab fa-linkedin"></i></a></div></div>
+</footer>
+<script src="main.min.js"></script>
+<button aria-label="Back to top" id="backToTop">↑</button><div class="nav-overlay" hidden="True"></div></body>
+</html>

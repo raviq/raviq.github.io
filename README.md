@@ -4,6 +4,7 @@ A very basic portfolio in html.
 
 ## Usage
 
+(v0)
 - Edit the `sidemenu` div entries in `index.html` and create the corresponding pages in `include/`.
 - Test by adding the site to `public/`, running [http-server](https://github.com/indexzero/http-server) using `http-server -p 8000`, and accessing `http://localhost:8000/`.
 
@@ -13,5 +14,5 @@ This software was developed in the hope that it would be of some use, and is fre
 
 Comments, feedback and ideas are welcome. If you find bugs or omissions in the code, please do not hesitate to submit an issue or open a pull request with a fix.
 
-Copyright (c) 2023 Rafik Hadfi, rafik.hadfi@gmail.com
+Copyright (c) 2025 Rafik Hadfi, rafik.hadfi@gmail.com
 
