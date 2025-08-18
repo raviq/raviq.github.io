@@ -25,7 +25,10 @@ body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; 
 .brand{display:flex; flex-direction:column; text-decoration:none; color:var(--text)}
 .brand-name{font-weight:800; letter-spacing:.2px}
 .brand-role{font-size:.95rem; color:var(--muted)}
-.nav-toggle{display:none; background:transparent; border:0; color:var(--text); font-size:24px}
+.nav-toggle{
+    display:none; background:transparent; border:0; color:var(--text);
+    font-size:24px
+}
 .nav ul{display:flex; list-style:none; gap:18px; margin:0; padding:0}
 .nav a{display:block; padding:10px 12px; text-decoration:none; color:var(--text); border-radius:10px}
 .nav a:hover{background:rgba(255,255,255,.06)}
@@ -369,7 +372,8 @@ i.ai { font-size: 18px; }
   display:none; z-index:40; }
 .nav-overlay.show{ display:block }
 @media (max-width:900px){
-  .nav{ position:fixed; top:0; right:0; height:100%; width:80vw; max-width:360px;
+  .nav{
+      position:fixed; top:0; right:0; height:100%; width:80vw; max-width:360px;
     background:var(--panel); border-left:1px solid var(--line); border-radius:0; box-shadow:var(--shadow);
     transform:translateX(100%); transition:transform .25s ease; z-index:50; }
   .nav.open{ transform:translateX(0) }
@@ -492,3 +496,70 @@ i.ai { font-size: 18px; }
 .export-pop button{ border:1px solid var(--line); background:transparent; color:#fff; padding:6px 10px; border-radius:8px }
 .export-pop button:hover{ border-color: var(--brand); color: var(--brand) }
 
+
+/* === FORCE NON-TRANSPARENT HAMBURGER BUTTON === */
+.nav-toggle{
+  background: var(--brand);
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 24px; /* keep the ☰ size consistent */
+  transition: background .2s ease;
+}
+.nav-toggle:hover{
+  background: var(--brand2);
+}
+/* ============================================= */
+
+/* === Make mobile dropdown menu (nav) fully opaque and full-width === */
+@media (max-width:900px){
+  /* Full-bleed fixed panel below the header */
+  .nav{
+    position:fixed !important;
+    left:0 !important; right:0 !important;
+    top:64px !important; /* header height approx; adjust if needed */
+    bottom:0 !important;
+    display:none;
+    background: var(--panel) !important; /* solid */
+    border:0 !important;
+    border-radius:0 !important;
+    box-shadow: none;
+    z-index: 40; /* above overlay and page */
+  }
+  .nav.open{ display:block; }
+  .nav ul{ flex-direction:column; padding:16px; gap:0; }
+  .nav li{ border-bottom:1px solid var(--line); }
+  .nav li:last-child{ border-bottom:0; }
+  .nav a{ padding:16px 8px; }
+  .nav a::after{ display:none; } /* remove hover underline bar inside panel */
+}
+
+/* Dim the page behind the open menu */
+.nav-overlay{
+  position:fixed;
+  inset:0;
+  background: rgba(0,0,0,.4);
+  backdrop-filter: blur(2px);
+  z-index: 30; /* under the .nav panel (z=40), over content */
+}
+.nav-overlay[hidden]{ display:none !important; }
+
+/* === HARD OVERRIDE: ensure no transparency in mobile menu === */
+@media (max-width:900px){
+  .header .nav,
+  .header .nav *{
+    background-color: var(--panel) !important;
+    backdrop-filter: none !important;
+  }
+  .header .nav{
+    position: fixed !important;
+    left: 0 !important; right: 0 !important;
+    top: 64px !important; bottom: 0 !important;
+    border: 0 !important; border-radius: 0 !important;
+    box-shadow: none !important;
+    z-index: 50 !important;
+  }
+  .header .nav a{ color: var(--text) !important; }
+}
