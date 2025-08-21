@@ -402,7 +402,7 @@
         const a = document.createElement('span'); a.className='pub-authors'; a.innerHTML = p.authors.replace(/(^|,\s*)(Rafik Hadfi)/g,'$1<strong>$2</strong>');
         const t = document.createElement('span'); t.className='pub-title'; t.textContent = ` “${p.title}” `;
         const v = document.createElement('em'); v.className='pub-venue'; v.textContent = p.venue ? ` ${p.venue}` : '';
-        const perm = document.createElement('a'); perm.className='permalink'; perm.href = `#${p.id}`; perm.setAttribute('aria-label','Permalink to this publication'); perm.textContent = '#';
+        //-- const perm = document.createElement('a'); perm.className='permalink'; perm.href = `#${p.id}`; perm.setAttribute('aria-label','Permalink to this publication'); perm.textContent = '#';
         li.appendChild(a); li.appendChild(t); li.appendChild(document.createTextNode('—')); li.appendChild(v); 
         li.appendChild(makeBadges(p));
         li.appendChild(perm);
