@@ -270,11 +270,24 @@ i.ai { font-size: 18px; }
   outline-offset: 2px;
 }
 i.ai { font-size: 18px; }
+/*
 @media (max-width: 900px) {
   .social-bar { display: none; }
 }
+*/
+/* ===== FIX: Prevent social-bar from overlapping content ===== */
+/* Add left padding when social bar is visible (desktop) */
+@media (min-width: 901px) {
+  body {
+    padding-left: 70px;
+  }
+}
 
-
+/* Hide social bar and remove padding on smaller screens */
+@media (max-width: 900px) {
+  .social-bar { display: none; }
+  body { padding-left: 0; }
+}
 
 .news-list { list-style:none; padding:0; margin:0 0 8px; }
 .news-list li { margin: 8px 0; }
