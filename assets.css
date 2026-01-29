@@ -19,6 +19,13 @@ body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; 
 
 .container{max-width:var(--maxw); margin:0 auto; padding:0 12px}
 
+/* ===== FIX: Offset content for social-bar on desktop ===== */
+@media (min-width: 901px) {
+  .container {
+    padding-left: 70px;
+  }
+}
+
 .header{position:sticky; top:0; z-index:30; backdrop-filter:saturate(180%) blur(10px); background:rgba(14,16,20,.6); border-bottom:1px solid var(--line)}
 @media (prefers-color-scheme: light){ .header{background:rgba(255,255,255,.7)} }
 .header-inner{display:flex; align-items:center; justify-content:space-between; gap:24px; padding:14px 0}
